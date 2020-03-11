@@ -15,3 +15,5 @@
 /web/sites/*/files/
 
 .chef_drupal_installed
+.editorconfig
+.gitattributes
