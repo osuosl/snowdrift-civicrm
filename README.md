@@ -1,14 +1,16 @@
-First update the composer.json file to what you want and then do the following:
+First update the composer.json file to what you want and then do the following. You will need a Gitlab.com token in
+order to pull in some of the deps unfortunately. It should be in the form of "username:token".
 
 ```
-docker run -it --rm -v $(pwd):/w -w /w centos:7
+# Build container
+docker build -t snowdrift-civicrm .
+
+# Run container
+docker run -it --rm -v $(pwd):/w -w /w snowdrift-civicrm
 
 # Inside the container
-yum install -y https://repo.ius.io/ius-release-el7.rpm \
-  https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
-yum install -y php73-cli php73-json php73-mbstring php73-xml php73-pdo \
-  php73-opcache php73-mysqlnd php73-gd wget
-wget -O /usr/local/bin/composer https://getcomposer.org/download/1.10.7/composer.phar
-chmod +x /usr/local/bin/composer
+composer config --global --auth gitlab-token.gitlab.com <GITLAB_TOKEN>
 composer update
 ```
+
+Afterwards, commit the updates to composer.json and compose.lock. Chef should update everything on the next run.
