@@ -22,6 +22,8 @@
         "drupal/core-composer-scaffold": "8.9.1",
         "drupal/core-project-message": "8.9.1",
         "drupal/core-recommended": "8.9.1",
+        "drupal/webform": "5.19.0",
+        "drupal/webform_civicrm": "5.0.0-beta1",
         "drush/drush": "10.3.0",
         "roundearth/civicrm-composer-plugin": "dev-master"
     },
