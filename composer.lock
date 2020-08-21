@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4c89efb9482bfe4676c7ad050a283316",
+    "content-hash": "a7567d3b26937813c32e1292ba722f8e",
     "packages": [
         {
             "name": "adrienrn/php-mimetyper",
@@ -93,6 +93,110 @@
                 "stack"
             ],
             "time": "2019-12-24T22:41:47+00:00"
+        },
+        {
+            "name": "brick/math",
+            "version": "0.9.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brick/math.git",
+                "reference": "283a40c901101e66de7061bd359252c013dcc43c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brick/math/zipball/283a40c901101e66de7061bd359252c013dcc43c",
+                "reference": "283a40c901101e66de7061bd359252c013dcc43c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.1|^8.0"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.2",
+                "phpunit/phpunit": "^7.5.15|^8.5",
+                "vimeo/psalm": "^3.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Brick\\Math\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Arbitrary-precision arithmetic library",
+            "keywords": [
+                "Arbitrary-precision",
+                "BigInteger",
+                "BigRational",
+                "arithmetic",
+                "bigdecimal",
+                "bignum",
+                "brick",
+                "math"
+            ],
+            "funding": [
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/brick/math",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-08-18T23:57:15+00:00"
+        },
+        {
+            "name": "brick/money",
+            "version": "0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brick/money.git",
+                "reference": "f922b357dc56f78c398c6cd055fbaa75eaffdbeb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brick/money/zipball/f922b357dc56f78c398c6cd055fbaa75eaffdbeb",
+                "reference": "f922b357dc56f78c398c6cd055fbaa75eaffdbeb",
+                "shasum": ""
+            },
+            "require": {
+                "brick/math": "~0.7.3 || ~0.8.0 || ~0.9.0",
+                "php": "^7.1|^8.0"
+            },
+            "require-dev": {
+                "brick/varexporter": "~0.2.1",
+                "ext-dom": "*",
+                "ext-pdo": "*",
+                "php-coveralls/php-coveralls": "^2.2",
+                "phpunit/phpunit": "^7.5.15"
+            },
+            "suggest": {
+                "ext-intl": "Required to format Money objects"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Brick\\Money\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Money and currency library",
+            "keywords": [
+                "brick",
+                "currency",
+                "money"
+            ],
+            "funding": [
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/brick/money",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-08-19T22:52:38+00:00"
         },
         {
             "name": "cache/integration-tests",
@@ -254,27 +358,60 @@
             "time": "2020-07-15T06:08:04+00:00"
         },
         {
+            "name": "civicrm/civicrm-asset-plugin",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://lab.civicrm.org/dev/civicrm-asset-plugin/",
+                "reference": "e99a60966d0deda24a644f348376537af5b618e9"
+            },
+            "require": {
+                "composer-plugin-api": "^1.1"
+            },
+            "require-dev": {
+                "symfony/process": "^2.7 || ^3.0 || ^4.0",
+                "totten/process-helper": "^1.0.1"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Civi\\AssetPlugin\\AssetPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Civi\\AssetPlugin\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "Publish assets from private CiviCRM folders to a public folder",
+            "time": "2020-03-20T22:50:08+00:00"
+        },
+        {
             "name": "civicrm/civicrm-core",
-            "version": "5.27.0",
+            "version": "5.28.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "2bc6d5d61e4fd6c11ca1284dac729243684952eb"
+                "reference": "00d8aca210727c15e1aa215c5019d855912d8034"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/2bc6d5d61e4fd6c11ca1284dac729243684952eb",
-                "reference": "2bc6d5d61e4fd6c11ca1284dac729243684952eb",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/00d8aca210727c15e1aa215c5019d855912d8034",
+                "reference": "00d8aca210727c15e1aa215c5019d855912d8034",
                 "shasum": ""
             },
             "require": {
                 "adrienrn/php-mimetyper": "0.2.2",
+                "brick/money": "~0.4",
                 "cache/integration-tests": "~0.16.0",
                 "civicrm/civicrm-cxn-rpc": "~0.19.01.08",
                 "civicrm/composer-downloads-plugin": "^2.0",
                 "cweagans/composer-patches": "~1.0",
                 "dompdf/dompdf": "0.8.*",
                 "electrolinux/phpquery": "^0.9.6",
+                "ext-intl": "*",
                 "guzzlehttp/guzzle": "^6.3",
                 "league/csv": "^9.2",
                 "marcj/topsort": "~1.1",
@@ -295,7 +432,7 @@
                 "symfony/finder": "~3.0 || ~4.4",
                 "symfony/polyfill-iconv": "~1.0",
                 "symfony/process": "~3.0 || ~4.4",
-                "tecnickcom/tcpdf": "6.2.*",
+                "tecnickcom/tcpdf": "6.3.*",
                 "totten/ca-config": "~17.05",
                 "tplaner/when": "~3.0.0",
                 "typo3/phar-stream-wrapper": "^2 || ^3.0",
@@ -584,10 +721,16 @@
                     }
                 },
                 "patches": {
+                    "adrienrn/php-mimetyper": {
+                        "Update gitignore to ensure that sites that manage via git don't miss out on the important db.json file": "https://patch-diff.githubusercontent.com/raw/adrienrn/php-mimetyper/pull/15.patch"
+                    },
                     "cache/integration-tests": {
                         "Allow adding tests": "https://github.com/php-cache/integration-tests/commit/05f97174c09364dc10c084a38ba0cfd5124f4cec.patch",
                         "Support PHPUnit 6+": "https://github.com/php-cache/integration-tests/commit/1ec7362962185df91d3d749bc3fa7e7b99cb9fc7.patch",
                         "Add tests for binary data round trip": "https://github.com/php-cache/integration-tests/commit/89cd7068e83aa776774bfc44f6bcba858c085616.patch"
+                    },
+                    "electrolinux/phpquery": {
+                        "PHP7.4 Fix for array access using {} instead of []": "https://raw.githubusercontent.com/civicrm/civicrm-core/fe45bdfc4f3e3d3deb27e3d853cdbc7f616620a9/tools/scripts/composer/patches/php74_array_access_fix_phpquery.patch"
                     },
                     "pear/mail": {
                         "Apply CiviCRM Customisations for CRM-1367 and CRM-5946": "https://raw.githubusercontent.com/civicrm/civicrm-core/36319938a5bf26c1e7e2110a26a65db6a5979268/tools/scripts/composer/patches/pear-mail.patch"
@@ -619,6 +762,7 @@
                 "psr-4": {
                     "Civi\\": [
                         ".",
+                        "Civi/",
                         "setup/src/"
                     ]
                 }
@@ -653,7 +797,7 @@
                 }
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
-            "time": "2020-07-02T06:25:23+00:00"
+            "time": "2020-08-20T06:32:43+00:00"
         },
         {
             "name": "civicrm/civicrm-cxn-rpc",
@@ -694,16 +838,16 @@
         },
         {
             "name": "civicrm/civicrm-drupal-8",
-            "version": "5.27.0",
+            "version": "5.28.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-drupal-8.git",
-                "reference": "3c084fc6d6aedb3deabae2dadde63338dc526580"
+                "reference": "d3ae4f5efe35649640e114279e00d2ad92f9fe4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-drupal-8/zipball/3c084fc6d6aedb3deabae2dadde63338dc526580",
-                "reference": "3c084fc6d6aedb3deabae2dadde63338dc526580",
+                "url": "https://api.github.com/repos/civicrm/civicrm-drupal-8/zipball/d3ae4f5efe35649640e114279e00d2ad92f9fe4d",
+                "reference": "d3ae4f5efe35649640e114279e00d2ad92f9fe4d",
                 "shasum": ""
             },
             "require": {
@@ -741,7 +885,26 @@
                 }
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
-            "time": "2020-04-16T20:31:26+00:00"
+            "time": "2020-06-29T20:42:45+00:00"
+        },
+        {
+            "name": "civicrm/civicrm-packages",
+            "version": "5.28.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/civicrm/civicrm-packages.git",
+                "reference": "297fd86564f0bfebeb44a09f34dce95727ab8d46"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/civicrm/civicrm-packages/zipball/297fd86564f0bfebeb44a09f34dce95727ab8d46",
+                "reference": "297fd86564f0bfebeb44a09f34dce95727ab8d46",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Legacy third party dependencies for CiviCRM",
+            "time": "2020-06-28T21:03:43+00:00"
         },
         {
             "name": "civicrm/composer-downloads-plugin",
@@ -2994,17 +3157,17 @@
         },
         {
             "name": "drupal/webform_civicrm",
-            "version": "5.0.0-beta1",
+            "version": "5.0.0-beta2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/webform_civicrm.git",
-                "reference": "8.x-5.0-beta1"
+                "reference": "8.x-5.0-beta2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/webform_civicrm-8.x-5.0-beta1.zip",
-                "reference": "8.x-5.0-beta1",
-                "shasum": "ff4af25275470137be85a53479ec53d3b7cd8cf4"
+                "url": "https://ftp.drupal.org/files/projects/webform_civicrm-8.x-5.0-beta2.zip",
+                "reference": "8.x-5.0-beta2",
+                "shasum": "fd1246a796b6b002b3fb06f911883bfe7330f3ee"
             },
             "require": {
                 "drupal/core": "^8.7.7 || ^9",
@@ -3013,8 +3176,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-5.0-beta1",
-                    "datestamp": "1596397529",
+                    "version": "8.x-5.0-beta2",
+                    "datestamp": "1597432906",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -4181,16 +4344,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.8.0",
+            "version": "v4.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "8c58eb4cd4f3883f82611abeac2efbc3dbed787e"
+                "reference": "aaee038b912e567780949787d5fe1977be11a778"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/8c58eb4cd4f3883f82611abeac2efbc3dbed787e",
-                "reference": "8c58eb4cd4f3883f82611abeac2efbc3dbed787e",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/aaee038b912e567780949787d5fe1977be11a778",
+                "reference": "aaee038b912e567780949787d5fe1977be11a778",
                 "shasum": ""
             },
             "require": {
@@ -4198,7 +4361,7 @@
                 "php": ">=7.0"
             },
             "require-dev": {
-                "ircmaxell/php-yacc": "^0.0.6",
+                "ircmaxell/php-yacc": "^0.0.7",
                 "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0 || ^9.0"
             },
             "bin": [
@@ -4207,7 +4370,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.8-dev"
+                    "dev-master": "4.9-dev"
                 }
             },
             "autoload": {
@@ -4229,7 +4392,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2020-08-09T10:23:20+00:00"
+            "time": "2020-08-18T19:48:01+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -4592,16 +4755,16 @@
         },
         {
             "name": "pear/net_smtp",
-            "version": "1.9.1",
+            "version": "1.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/Net_SMTP.git",
-                "reference": "ee0e156ab94b37ac7ad10623a4a62f10a2a2d421"
+                "reference": "18b5dbaa049bee5f6d02c9a4318db02472e2c922"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/Net_SMTP/zipball/ee0e156ab94b37ac7ad10623a4a62f10a2a2d421",
-                "reference": "ee0e156ab94b37ac7ad10623a4a62f10a2a2d421",
+                "url": "https://api.github.com/repos/pear/Net_SMTP/zipball/18b5dbaa049bee5f6d02c9a4318db02472e2c922",
+                "reference": "18b5dbaa049bee5f6d02c9a4318db02472e2c922",
                 "shasum": ""
             },
             "require": {
@@ -4648,7 +4811,7 @@
                 "mail",
                 "smtp"
             ],
-            "time": "2020-06-06T22:45:09+00:00"
+            "time": "2020-08-13T01:26:09+00:00"
         },
         {
             "name": "pear/net_socket",
@@ -7817,16 +7980,16 @@
         },
         {
             "name": "tecnickcom/tcpdf",
-            "version": "6.2.26",
+            "version": "6.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tecnickcom/TCPDF.git",
-                "reference": "367241059ca166e3a76490f4448c284e0a161f15"
+                "reference": "19a535eaa7fb1c1cac499109deeb1a7a201b4549"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/367241059ca166e3a76490f4448c284e0a161f15",
-                "reference": "367241059ca166e3a76490f4448c284e0a161f15",
+                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/19a535eaa7fb1c1cac499109deeb1a7a201b4549",
+                "reference": "19a535eaa7fb1c1cac499109deeb1a7a201b4549",
                 "shasum": ""
             },
             "require": {
@@ -7855,7 +8018,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "LGPL-3.0"
+                "LGPL-3.0-only"
             ],
             "authors": [
                 {
@@ -7875,7 +8038,7 @@
                 "pdf417",
                 "qrcode"
             ],
-            "time": "2018-10-16T17:24:05+00:00"
+            "time": "2020-02-14T14:20:12+00:00"
         },
         {
             "name": "togos/gitignore",
