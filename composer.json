@@ -15,15 +15,17 @@
         }
     ],
     "require": {
-        "civicrm/civicrm-core": "5.27.0",
-        "civicrm/civicrm-drupal-8": "5.27.0",
+        "civicrm/civicrm-asset-plugin": "~1.0",
+        "civicrm/civicrm-core": "~5.28",
+        "civicrm/civicrm-drupal-8": "~5.28",
+        "civicrm/civicrm-packages": "~5.28",
         "civicrm/cv": "0.3.2",
         "composer/installers": "^1.2",
         "drupal/core-composer-scaffold": "8.9.1",
         "drupal/core-project-message": "8.9.1",
         "drupal/core-recommended": "8.9.1",
         "drupal/webform": "5.19.0",
-        "drupal/webform_civicrm": "5.0.0-beta1",
+        "drupal/webform_civicrm": "^5.0",
         "drush/drush": "10.3.0",
         "roundearth/civicrm-composer-plugin": "dev-master"
     },
