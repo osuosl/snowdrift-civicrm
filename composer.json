@@ -21,12 +21,12 @@
         "civicrm/civicrm-packages": "~5.28",
         "civicrm/cv": "0.3.2",
         "composer/installers": "^1.2",
-        "drupal/core-composer-scaffold": "8.9.1",
-        "drupal/core-project-message": "8.9.1",
-        "drupal/core-recommended": "8.9.1",
-        "drupal/webform": "5.19.0",
+        "drupal/core-composer-scaffold": "~8.9",
+        "drupal/core-project-message": "~8.9",
+        "drupal/core-recommended": "~8.9",
+        "drupal/webform": "~5.19",
         "drupal/webform_civicrm": "^5.0",
-        "drush/drush": "10.3.0",
+        "drush/drush": "~10.3",
         "roundearth/civicrm-composer-plugin": "dev-master"
     },
     "require-dev": {
