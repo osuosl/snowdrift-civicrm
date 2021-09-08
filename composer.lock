@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c64609ff6c0f0374f04da629d42e2f9c",
+    "content-hash": "70118ef81e6676b7d114e8feeaca06d0",
     "packages": [
         {
             "name": "adrienrn/php-mimetyper",
@@ -442,16 +442,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "5.40.3",
+            "version": "5.41.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "7e3fd346cf9637ee753c69a4e5ffd965359e8f9b"
+                "reference": "bc230484496a18b347be716651c01db93105da49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/7e3fd346cf9637ee753c69a4e5ffd965359e8f9b",
-                "reference": "7e3fd346cf9637ee753c69a4e5ffd965359e8f9b",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/bc230484496a18b347be716651c01db93105da49",
+                "reference": "bc230484496a18b347be716651c01db93105da49",
                 "shasum": ""
             },
             "require": {
@@ -705,7 +705,7 @@
                         ]
                     },
                     "monaco-editor": {
-                        "url": "https://registry.npmjs.org/monaco-editor/-/monaco-editor-0.16.2.tgz",
+                        "url": "https://registry.npmjs.org/monaco-editor/-/monaco-editor-0.25.2.tgz",
                         "path": "bower_components/monaco-editor",
                         "ignore": [
                             "dev",
@@ -893,7 +893,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/5.40.3"
+                "source": "https://github.com/civicrm/civicrm-core/tree/5.41.0"
             },
             "funding": [
                 {
@@ -901,7 +901,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-08-24T01:33:38+00:00"
+            "time": "2021-09-02T01:52:05+00:00"
         },
         {
             "name": "civicrm/civicrm-cxn-rpc",
@@ -946,16 +946,16 @@
         },
         {
             "name": "civicrm/civicrm-drupal-8",
-            "version": "5.40.3",
+            "version": "5.41.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-drupal-8.git",
-                "reference": "94ed2818b7717427ecb97fb7b2d5f33ebe2f902f"
+                "reference": "1b8d09abc56d016f3c2872af98af324e519b43e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-drupal-8/zipball/94ed2818b7717427ecb97fb7b2d5f33ebe2f902f",
-                "reference": "94ed2818b7717427ecb97fb7b2d5f33ebe2f902f",
+                "url": "https://api.github.com/repos/civicrm/civicrm-drupal-8/zipball/1b8d09abc56d016f3c2872af98af324e519b43e5",
+                "reference": "1b8d09abc56d016f3c2872af98af324e519b43e5",
                 "shasum": ""
             },
             "require": {
@@ -995,7 +995,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/5.40.3"
+                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/5.41.0"
             },
             "funding": [
                 {
@@ -1003,29 +1003,29 @@
                     "type": "custom"
                 }
             ],
-            "time": "2021-06-14T15:10:13+00:00"
+            "time": "2021-07-20T14:52:10+00:00"
         },
         {
             "name": "civicrm/civicrm-packages",
-            "version": "5.40.3",
+            "version": "5.41.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-packages.git",
-                "reference": "0a3e848b4d38294239d224d0c76cb269a5f3d10f"
+                "reference": "6998b962b50abb4aa48097e251ecfd9ea202e294"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-packages/zipball/0a3e848b4d38294239d224d0c76cb269a5f3d10f",
-                "reference": "0a3e848b4d38294239d224d0c76cb269a5f3d10f",
+                "url": "https://api.github.com/repos/civicrm/civicrm-packages/zipball/6998b962b50abb4aa48097e251ecfd9ea202e294",
+                "reference": "6998b962b50abb4aa48097e251ecfd9ea202e294",
                 "shasum": ""
             },
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
             "description": "Legacy third party dependencies for CiviCRM",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-packages/tree/5.40.3"
+                "source": "https://github.com/civicrm/civicrm-packages/tree/5.41.0"
             },
-            "time": "2021-06-08T22:53:57+00:00"
+            "time": "2021-07-18T00:41:40+00:00"
         },
         {
             "name": "civicrm/composer-compile-lib",
@@ -1430,16 +1430,16 @@
         },
         {
             "name": "consolidation/annotated-command",
-            "version": "4.2.4",
+            "version": "4.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/annotated-command.git",
-                "reference": "ec297e05cb86557671c2d6cbb1bebba6c7ae2c60"
+                "reference": "386d2c9253675bbb4b7f04c6bc52f8e74c0d4cc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/ec297e05cb86557671c2d6cbb1bebba6c7ae2c60",
-                "reference": "ec297e05cb86557671c2d6cbb1bebba6c7ae2c60",
+                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/386d2c9253675bbb4b7f04c6bc52f8e74c0d4cc6",
+                "reference": "386d2c9253675bbb4b7f04c6bc52f8e74c0d4cc6",
                 "shasum": ""
             },
             "require": {
@@ -1451,7 +1451,7 @@
                 "symfony/finder": "^4.4.8|^5"
             },
             "require-dev": {
-                "phpunit/phpunit": ">=7.5.20",
+                "phpunit/phpunit": "^7.5.20 || ^8 || ^9",
                 "squizlabs/php_codesniffer": "^3",
                 "yoast/phpunit-polyfills": "^0.2.0"
             },
@@ -1479,9 +1479,9 @@
             "description": "Initialize Symfony Console commands from annotated command class methods.",
             "support": {
                 "issues": "https://github.com/consolidation/annotated-command/issues",
-                "source": "https://github.com/consolidation/annotated-command/tree/4.2.4"
+                "source": "https://github.com/consolidation/annotated-command/tree/4.3.1"
             },
-            "time": "2020-12-10T16:56:39+00:00"
+            "time": "2021-08-30T03:50:47+00:00"
         },
         {
             "name": "consolidation/config",
@@ -2535,16 +2535,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "9.2.4",
+            "version": "9.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "c723626030c728ec2f9f6526e6cd5f029c9e628c"
+                "reference": "96bb4da48ed4d5892247b8afed55ca3db9bc47f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/c723626030c728ec2f9f6526e6cd5f029c9e628c",
-                "reference": "c723626030c728ec2f9f6526e6cd5f029c9e628c",
+                "url": "https://api.github.com/repos/drupal/core/zipball/96bb4da48ed4d5892247b8afed55ca3db9bc47f6",
+                "reference": "96bb4da48ed4d5892247b8afed55ca3db9bc47f6",
                 "shasum": ""
             },
             "require": {
@@ -2783,22 +2783,22 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/9.2.4"
+                "source": "https://github.com/drupal/core/tree/9.2.5"
             },
-            "time": "2021-08-12T17:48:08+00:00"
+            "time": "2021-09-01T21:51:44+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "9.2.4",
+            "version": "9.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
-                "reference": "e146f2d0bab60c798c7cc91eae79f25c43a96899"
+                "reference": "3c9efe8e154acc2cadb86b51733be55556677b0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-composer-scaffold/zipball/e146f2d0bab60c798c7cc91eae79f25c43a96899",
-                "reference": "e146f2d0bab60c798c7cc91eae79f25c43a96899",
+                "url": "https://api.github.com/repos/drupal/core-composer-scaffold/zipball/3c9efe8e154acc2cadb86b51733be55556677b0b",
+                "reference": "3c9efe8e154acc2cadb86b51733be55556677b0b",
                 "shasum": ""
             },
             "require": {
@@ -2833,13 +2833,13 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.2.4"
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.2.5"
             },
-            "time": "2021-07-10T22:39:33+00:00"
+            "time": "2021-08-24T12:04:07+00:00"
         },
         {
             "name": "drupal/core-project-message",
-            "version": "9.2.4",
+            "version": "9.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-project-message.git",
@@ -2874,22 +2874,22 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-project-message/tree/9.2.4"
+                "source": "https://github.com/drupal/core-project-message/tree/9.2.5"
             },
             "time": "2020-09-14T13:40:36+00:00"
         },
         {
             "name": "drupal/core-recommended",
-            "version": "9.2.4",
+            "version": "9.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "b8f3420017a6e03f1402ee6058c6da16bba9b257"
+                "reference": "a6738810628a3ee04a49265191b43b2b2de5aa60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/b8f3420017a6e03f1402ee6058c6da16bba9b257",
-                "reference": "b8f3420017a6e03f1402ee6058c6da16bba9b257",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/a6738810628a3ee04a49265191b43b2b2de5aa60",
+                "reference": "a6738810628a3ee04a49265191b43b2b2de5aa60",
                 "shasum": ""
             },
             "require": {
@@ -2898,7 +2898,7 @@
                 "doctrine/annotations": "1.13.1",
                 "doctrine/lexer": "1.2.1",
                 "doctrine/reflection": "1.2.2",
-                "drupal/core": "9.2.4",
+                "drupal/core": "9.2.5",
                 "egulias/email-validator": "2.1.25",
                 "guzzlehttp/guzzle": "6.5.5",
                 "guzzlehttp/promises": "1.4.1",
@@ -2961,9 +2961,9 @@
             ],
             "description": "Locked core dependencies; require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/9.2.4"
+                "source": "https://github.com/drupal/core-recommended/tree/9.2.5"
             },
-            "time": "2021-08-12T17:48:08+00:00"
+            "time": "2021-09-01T21:51:44+00:00"
         },
         {
             "name": "drush/drush",
@@ -4935,16 +4935,16 @@
         },
         {
             "name": "pear/mail_mime",
-            "version": "1.10.10",
+            "version": "1.10.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/Mail_Mime.git",
-                "reference": "ede6128af4c1474394a65f44bf20358c0bf1977f"
+                "reference": "d4fb9ce61201593d0f8c6db629c45e29c3409c14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/Mail_Mime/zipball/ede6128af4c1474394a65f44bf20358c0bf1977f",
-                "reference": "ede6128af4c1474394a65f44bf20358c0bf1977f",
+                "url": "https://api.github.com/repos/pear/Mail_Mime/zipball/d4fb9ce61201593d0f8c6db629c45e29c3409c14",
+                "reference": "d4fb9ce61201593d0f8c6db629c45e29c3409c14",
                 "shasum": ""
             },
             "require": {
@@ -4962,7 +4962,7 @@
                 "./"
             ],
             "license": [
-                "BSD-3-clause"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -4982,7 +4982,7 @@
                 "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Mail_Mime",
                 "source": "https://github.com/pear/Mail_Mime"
             },
-            "time": "2021-01-17T08:30:22+00:00"
+            "time": "2021-09-05T08:42:45+00:00"
         },
         {
             "name": "pear/net_smtp",
@@ -6232,16 +6232,16 @@
         },
         {
             "name": "symfony/config",
-            "version": "v4.4.27",
+            "version": "v4.4.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "8132e8d645d703e9b7c9c4f25067b93638683a35"
+                "reference": "d9ea72de055cd822e5228ff898e2aad2f52f76b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/8132e8d645d703e9b7c9c4f25067b93638683a35",
-                "reference": "8132e8d645d703e9b7c9c4f25067b93638683a35",
+                "url": "https://api.github.com/repos/symfony/config/zipball/d9ea72de055cd822e5228ff898e2aad2f52f76b0",
+                "reference": "d9ea72de055cd822e5228ff898e2aad2f52f76b0",
                 "shasum": ""
             },
             "require": {
@@ -6290,7 +6290,7 @@
             "description": "Helps you find, load, combine, autofill and validate configuration values of any kind",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/config/tree/v4.4.27"
+                "source": "https://github.com/symfony/config/tree/v4.4.30"
             },
             "funding": [
                 {
@@ -6306,7 +6306,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-07-21T12:19:41+00:00"
+            "time": "2021-08-04T20:31:23+00:00"
         },
         {
             "name": "symfony/console",
@@ -6914,16 +6914,16 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v4.4.27",
+            "version": "v4.4.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "42414d7ac96fc2880a783b872185789dea0d4262"
+                "reference": "70362f1e112280d75b30087c7598b837c1b468b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/42414d7ac96fc2880a783b872185789dea0d4262",
-                "reference": "42414d7ac96fc2880a783b872185789dea0d4262",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/70362f1e112280d75b30087c7598b837c1b468b6",
+                "reference": "70362f1e112280d75b30087c7598b837c1b468b6",
                 "shasum": ""
             },
             "require": {
@@ -6956,7 +6956,7 @@
             "description": "Finds files and directories via an intuitive fluent interface",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/finder/tree/v4.4.27"
+                "source": "https://github.com/symfony/finder/tree/v4.4.30"
             },
             "funding": [
                 {
@@ -6972,7 +6972,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-07-23T15:41:52+00:00"
+            "time": "2021-08-04T20:31:23+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
