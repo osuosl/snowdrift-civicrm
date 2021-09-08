@@ -90,6 +90,6 @@
             ]
         },
         "enable-patching": "true",
-        "compile-whitelist": ["civicrm/civicrm-core", "civicrm/composer-compile-lib"]
+        "compile-mode": "all"
     }
 }
