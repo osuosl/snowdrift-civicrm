@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "95984f138973e58eebeeffb32f1ea6cf",
+    "content-hash": "768f4a9c5b74b02b984327e3693d31e2",
     "packages": [
         {
             "name": "adrienrn/php-mimetyper",
@@ -2759,7 +2759,7 @@
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "9.3.0",
+            "version": "9.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -2803,7 +2803,7 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.3.0"
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.3.2"
             },
             "time": "2021-11-19T09:52:23+00:00"
         },
