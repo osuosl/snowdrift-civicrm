@@ -1,4 +1,12 @@
-Update `composer.json`, then update the lockfile in Docker with the following:
+# Snowdrift CiviCRM Dependency Configuration
+
+## Automatic updates
+
+This repo has Dependabot configured for weekly automatic updates. Simply merge the generated PR and Chef will deploy the update on the next run.
+
+## Manual updates
+
+Update `composer.json`, then update the lockfile with the following Docker container:
 
 ```sh
 # Build container
