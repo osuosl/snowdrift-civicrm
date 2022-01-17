@@ -1202,16 +1202,16 @@
         },
         {
             "name": "civicrm/cv",
-            "version": "v0.3.14",
+            "version": "v0.3.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/cv.git",
-                "reference": "d546c0cfae2e9fb16288e5a810847a7ae7fdc7f6"
+                "reference": "11752ae3b7146da388dca10be8ce2bf63e46c8db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/cv/zipball/d546c0cfae2e9fb16288e5a810847a7ae7fdc7f6",
-                "reference": "d546c0cfae2e9fb16288e5a810847a7ae7fdc7f6",
+                "url": "https://api.github.com/repos/civicrm/cv/zipball/11752ae3b7146da388dca10be8ce2bf63e46c8db",
+                "reference": "11752ae3b7146da388dca10be8ce2bf63e46c8db",
                 "shasum": ""
             },
             "require": {
@@ -1253,9 +1253,9 @@
             "description": "CLI tool for CiviCRM",
             "support": {
                 "issues": "https://github.com/civicrm/cv/issues",
-                "source": "https://github.com/civicrm/cv/tree/v0.3.14"
+                "source": "https://github.com/civicrm/cv/tree/v0.3.15"
             },
-            "time": "2021-12-08T01:58:30+00:00"
+            "time": "2022-01-14T03:17:04+00:00"
         },
         {
             "name": "composer/installers",
@@ -10182,5 +10182,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.2.0"
 }
