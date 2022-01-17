@@ -24,7 +24,7 @@
         "drupal/core-composer-scaffold": "~9.2",
         "drupal/core-project-message": "~9.2",
         "drupal/core-recommended": "~9.2",
-        "drush/drush": "~10"
+        "drush/drush": "~11"
     },
     "conflict": {
         "drupal/drupal": "*"
