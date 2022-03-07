@@ -1010,25 +1010,25 @@
         },
         {
             "name": "civicrm/civicrm-packages",
-            "version": "5.46.2",
+            "version": "5.47.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-packages.git",
-                "reference": "ac84a47ffc4fe6d4149ff1a44c72eb1c3dc2d8d6"
+                "reference": "8586e1b7e1443f837c5965779c1c3e69f2e8035e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-packages/zipball/ac84a47ffc4fe6d4149ff1a44c72eb1c3dc2d8d6",
-                "reference": "ac84a47ffc4fe6d4149ff1a44c72eb1c3dc2d8d6",
+                "url": "https://api.github.com/repos/civicrm/civicrm-packages/zipball/8586e1b7e1443f837c5965779c1c3e69f2e8035e",
+                "reference": "8586e1b7e1443f837c5965779c1c3e69f2e8035e",
                 "shasum": ""
             },
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
             "description": "Legacy third party dependencies for CiviCRM",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-packages/tree/5.46.2"
+                "source": "https://github.com/civicrm/civicrm-packages/tree/5.47.0"
             },
-            "time": "2022-01-09T16:43:24+00:00"
+            "time": "2022-01-09T16:48:04+00:00"
         },
         {
             "name": "civicrm/composer-compile-lib",
