@@ -442,16 +442,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "5.48.2",
+            "version": "5.49.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "315a23d7be3f19752c27cfaa5ec15a995b3249b3"
+                "reference": "7e5f94a6a124e4007b828fdbad803504fdd3e2af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/315a23d7be3f19752c27cfaa5ec15a995b3249b3",
-                "reference": "315a23d7be3f19752c27cfaa5ec15a995b3249b3",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/7e5f94a6a124e4007b828fdbad803504fdd3e2af",
+                "reference": "7e5f94a6a124e4007b828fdbad803504fdd3e2af",
                 "shasum": ""
             },
             "require": {
@@ -492,10 +492,11 @@
                 "symfony/filesystem": "~3.0 || ~4.4",
                 "symfony/finder": "~3.0 || ~4.4",
                 "symfony/polyfill-iconv": "~1.0",
+                "symfony/polyfill-php73": "^1.23",
                 "symfony/process": "~3.0 || ~4.4",
                 "symfony/var-dumper": "~3.0 || ~4.4 || ~5.1",
                 "tecnickcom/tcpdf": "6.4.*",
-                "totten/ca-config": "~17.05",
+                "totten/ca-config": "~22.05",
                 "tplaner/when": "~3.0.0",
                 "typo3/phar-stream-wrapper": "^2 || ^3.0",
                 "xkerman/restricted-unserialize": "~1.1",
@@ -896,7 +897,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/5.48.2"
+                "source": "https://github.com/civicrm/civicrm-core/tree/5.49.1"
             },
             "funding": [
                 {
@@ -904,7 +905,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2022-04-20T06:57:57+00:00"
+            "time": "2022-05-06T18:47:23+00:00"
         },
         {
             "name": "civicrm/civicrm-cxn-rpc",
@@ -9471,16 +9472,16 @@
         },
         {
             "name": "totten/ca-config",
-            "version": "v17.05.0",
+            "version": "v22.05.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/totten/ca_config.git",
-                "reference": "461cf05f932897c37ca87e9a85283d4963b49f09"
+                "reference": "5d71e1587ea6b18532f0b72b06fab103c1dcf8db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/totten/ca_config/zipball/461cf05f932897c37ca87e9a85283d4963b49f09",
-                "reference": "461cf05f932897c37ca87e9a85283d4963b49f09",
+                "url": "https://api.github.com/repos/totten/ca_config/zipball/5d71e1587ea6b18532f0b72b06fab103c1dcf8db",
+                "reference": "5d71e1587ea6b18532f0b72b06fab103c1dcf8db",
                 "shasum": ""
             },
             "require": {
@@ -9506,9 +9507,9 @@
             "homepage": "https://github.com/totten/ca_config",
             "support": {
                 "issues": "https://github.com/totten/ca_config/issues",
-                "source": "https://github.com/totten/ca_config/tree/master"
+                "source": "https://github.com/totten/ca_config/tree/v22.05.0"
             },
-            "time": "2017-05-10T20:08:17+00:00"
+            "time": "2022-05-05T05:35:59+00:00"
         },
         {
             "name": "totten/lurkerlite",
