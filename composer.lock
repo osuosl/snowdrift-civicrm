@@ -442,16 +442,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "5.49.1",
+            "version": "5.49.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "7e5f94a6a124e4007b828fdbad803504fdd3e2af"
+                "reference": "75ba78f764c48c1e9dcdf9363362acedf94af8b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/7e5f94a6a124e4007b828fdbad803504fdd3e2af",
-                "reference": "7e5f94a6a124e4007b828fdbad803504fdd3e2af",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/75ba78f764c48c1e9dcdf9363362acedf94af8b3",
+                "reference": "75ba78f764c48c1e9dcdf9363362acedf94af8b3",
                 "shasum": ""
             },
             "require": {
@@ -897,7 +897,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/5.49.1"
+                "source": "https://github.com/civicrm/civicrm-core/tree/5.49.2"
             },
             "funding": [
                 {
@@ -905,25 +905,25 @@
                     "type": "custom"
                 }
             ],
-            "time": "2022-05-06T18:47:23+00:00"
+            "time": "2022-05-19T08:24:06+00:00"
         },
         {
             "name": "civicrm/civicrm-cxn-rpc",
-            "version": "v0.20.12.01",
+            "version": "v0.20.12.02",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-cxn-rpc.git",
-                "reference": "b097258a642dc3e0dd9c264cb75b72d5274cac2f"
+                "reference": "72ae98b79f04048ed03c4325b5fa4ad501bcec59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-cxn-rpc/zipball/b097258a642dc3e0dd9c264cb75b72d5274cac2f",
-                "reference": "b097258a642dc3e0dd9c264cb75b72d5274cac2f",
+                "url": "https://api.github.com/repos/civicrm/civicrm-cxn-rpc/zipball/72ae98b79f04048ed03c4325b5fa4ad501bcec59",
+                "reference": "72ae98b79f04048ed03c4325b5fa4ad501bcec59",
                 "shasum": ""
             },
             "require": {
                 "phpseclib/phpseclib": "~2.0",
-                "psr/log": "~1.1"
+                "psr/log": "~1.1 || ~2.0 || ~3.0"
             },
             "type": "library",
             "autoload": {
@@ -944,9 +944,9 @@
             "description": "RPC library for CiviConnect",
             "support": {
                 "issues": "https://github.com/civicrm/civicrm-cxn-rpc/issues",
-                "source": "https://github.com/civicrm/civicrm-cxn-rpc/tree/v0.20.12.01"
+                "source": "https://github.com/civicrm/civicrm-cxn-rpc/tree/v0.20.12.02"
             },
-            "time": "2020-12-16T02:35:45+00:00"
+            "time": "2022-05-10T22:59:48+00:00"
         },
         {
             "name": "civicrm/civicrm-drupal-8",
@@ -4374,29 +4374,31 @@
         },
         {
             "name": "maennchen/zipstream-php",
-            "version": "2.1.0",
+            "version": "2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/maennchen/ZipStream-PHP.git",
-                "reference": "c4c5803cc1f93df3d2448478ef79394a5981cc58"
+                "reference": "211e9ba1530ea5260b45d90c9ea252f56ec52729"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maennchen/ZipStream-PHP/zipball/c4c5803cc1f93df3d2448478ef79394a5981cc58",
-                "reference": "c4c5803cc1f93df3d2448478ef79394a5981cc58",
+                "url": "https://api.github.com/repos/maennchen/ZipStream-PHP/zipball/211e9ba1530ea5260b45d90c9ea252f56ec52729",
+                "reference": "211e9ba1530ea5260b45d90c9ea252f56ec52729",
                 "shasum": ""
             },
             "require": {
                 "myclabs/php-enum": "^1.5",
-                "php": ">= 7.1",
+                "php": "^7.4 || ^8.0",
                 "psr/http-message": "^1.0",
                 "symfony/polyfill-mbstring": "^1.0"
             },
             "require-dev": {
                 "ext-zip": "*",
-                "guzzlehttp/guzzle": ">= 6.3",
+                "guzzlehttp/guzzle": "^6.5.3 || ^7.2.0",
                 "mikey179/vfsstream": "^1.6",
-                "phpunit/phpunit": ">= 7.5"
+                "php-coveralls/php-coveralls": "^2.4",
+                "phpunit/phpunit": "^8.5.8 || ^9.4.2",
+                "vimeo/psalm": "^4.1"
             },
             "type": "library",
             "autoload": {
@@ -4433,7 +4435,7 @@
             ],
             "support": {
                 "issues": "https://github.com/maennchen/ZipStream-PHP/issues",
-                "source": "https://github.com/maennchen/ZipStream-PHP/tree/master"
+                "source": "https://github.com/maennchen/ZipStream-PHP/tree/2.2.1"
             },
             "funding": [
                 {
@@ -4441,7 +4443,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2020-05-30T13:11:16+00:00"
+            "time": "2022-05-18T15:52:06+00:00"
         },
         {
             "name": "marcj/topsort",
@@ -6518,16 +6520,16 @@
         },
         {
             "name": "scssphp/scssphp",
-            "version": "v1.10.2",
+            "version": "v1.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/scssphp/scssphp.git",
-                "reference": "387f4f4abf5d99f16be16314c5ab856f81c82f46"
+                "reference": "0f1e1516ed2412ad43e42a6a319e77624ba1f713"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/scssphp/scssphp/zipball/387f4f4abf5d99f16be16314c5ab856f81c82f46",
-                "reference": "387f4f4abf5d99f16be16314c5ab856f81c82f46",
+                "url": "https://api.github.com/repos/scssphp/scssphp/zipball/0f1e1516ed2412ad43e42a6a319e77624ba1f713",
+                "reference": "0f1e1516ed2412ad43e42a6a319e77624ba1f713",
                 "shasum": ""
             },
             "require": {
@@ -6586,9 +6588,9 @@
             ],
             "support": {
                 "issues": "https://github.com/scssphp/scssphp/issues",
-                "source": "https://github.com/scssphp/scssphp/tree/v1.10.2"
+                "source": "https://github.com/scssphp/scssphp/tree/v1.10.3"
             },
-            "time": "2022-03-02T21:15:09+00:00"
+            "time": "2022-05-16T07:22:18+00:00"
         },
         {
             "name": "stack/builder",
