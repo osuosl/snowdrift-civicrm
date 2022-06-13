@@ -402,16 +402,16 @@
         },
         {
             "name": "civicrm/civicrm-asset-plugin",
-            "version": "v1.1.1",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-asset-plugin.git",
-                "reference": "50f967f2bbafe828e1734e860f06b59729f47da6"
+                "reference": "780882d9026a3fc7c9e915e6bff9a49911cbcc39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-asset-plugin/zipball/50f967f2bbafe828e1734e860f06b59729f47da6",
-                "reference": "50f967f2bbafe828e1734e860f06b59729f47da6",
+                "url": "https://api.github.com/repos/civicrm/civicrm-asset-plugin/zipball/780882d9026a3fc7c9e915e6bff9a49911cbcc39",
+                "reference": "780882d9026a3fc7c9e915e6bff9a49911cbcc39",
                 "shasum": ""
             },
             "require": {
@@ -436,9 +436,9 @@
             ],
             "description": "Publish assets from private CiviCRM folders to a public folder",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-asset-plugin/tree/v1.1.1"
+                "source": "https://github.com/civicrm/civicrm-asset-plugin/tree/v1.1.2"
             },
-            "time": "2020-10-08T01:31:53+00:00"
+            "time": "2022-06-10T20:26:58+00:00"
         },
         {
             "name": "civicrm/civicrm-core",
@@ -950,16 +950,16 @@
         },
         {
             "name": "civicrm/civicrm-drupal-8",
-            "version": "5.49.3",
+            "version": "5.50.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-drupal-8.git",
-                "reference": "b55fb5027c453ce86f76f357a3087e19a3bb4d41"
+                "reference": "47215fbd5e8cd7dc236c87895504190abbbe68bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-drupal-8/zipball/b55fb5027c453ce86f76f357a3087e19a3bb4d41",
-                "reference": "b55fb5027c453ce86f76f357a3087e19a3bb4d41",
+                "url": "https://api.github.com/repos/civicrm/civicrm-drupal-8/zipball/47215fbd5e8cd7dc236c87895504190abbbe68bc",
+                "reference": "47215fbd5e8cd7dc236c87895504190abbbe68bc",
                 "shasum": ""
             },
             "require": {
@@ -999,7 +999,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/5.49.3"
+                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/5.50.1"
             },
             "funding": [
                 {
@@ -1007,7 +1007,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2022-02-07T02:40:53+00:00"
+            "time": "2022-04-19T17:04:19+00:00"
         },
         {
             "name": "civicrm/civicrm-packages",
@@ -6987,6 +6987,7 @@
                     "type": "tidelift"
                 }
             ],
+            "abandoned": "symfony/error-handler",
             "time": "2021-09-24T13:30:14+00:00"
         },
         {
