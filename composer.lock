@@ -1203,16 +1203,16 @@
         },
         {
             "name": "civicrm/cv",
-            "version": "v0.3.25",
+            "version": "v0.3.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/cv.git",
-                "reference": "bca0f11430c9b55979258d3fa0d333b31e35b997"
+                "reference": "88ce942e6bc5c08600cbe60b87d4a09973eabe69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/cv/zipball/bca0f11430c9b55979258d3fa0d333b31e35b997",
-                "reference": "bca0f11430c9b55979258d3fa0d333b31e35b997",
+                "url": "https://api.github.com/repos/civicrm/cv/zipball/88ce942e6bc5c08600cbe60b87d4a09973eabe69",
+                "reference": "88ce942e6bc5c08600cbe60b87d4a09973eabe69",
                 "shasum": ""
             },
             "require": {
@@ -1230,7 +1230,7 @@
             "extra": {
                 "downloads": {
                     "box": {
-                        "url": "https://github.com/humbug/box/releases/download/3.8.4/box.phar",
+                        "url": "https://github.com/humbug/box/releases/download/3.16.0/box.phar",
                         "path": "bin/box",
                         "type": "phar"
                     }
@@ -1254,9 +1254,9 @@
             "description": "CLI tool for CiviCRM",
             "support": {
                 "issues": "https://github.com/civicrm/cv/issues",
-                "source": "https://github.com/civicrm/cv/tree/v0.3.25"
+                "source": "https://github.com/civicrm/cv/tree/v0.3.26"
             },
-            "time": "2022-05-26T08:14:19+00:00"
+            "time": "2022-07-09T01:58:56+00:00"
         },
         {
             "name": "composer/installers",
