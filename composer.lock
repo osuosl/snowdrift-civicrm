@@ -442,16 +442,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "5.51.0",
+            "version": "5.51.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "9d5f069403c4e789133798c1f3d09092cf55ff3f"
+                "reference": "ffdc7a0fd3b674c9f000f822c6df1718dc81b93c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/9d5f069403c4e789133798c1f3d09092cf55ff3f",
-                "reference": "9d5f069403c4e789133798c1f3d09092cf55ff3f",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/ffdc7a0fd3b674c9f000f822c6df1718dc81b93c",
+                "reference": "ffdc7a0fd3b674c9f000f822c6df1718dc81b93c",
                 "shasum": ""
             },
             "require": {
@@ -897,7 +897,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/5.51.0"
+                "source": "https://github.com/civicrm/civicrm-core/tree/5.51.1"
             },
             "funding": [
                 {
@@ -905,7 +905,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2022-07-07T08:23:48+00:00"
+            "time": "2022-07-12T05:14:00+00:00"
         },
         {
             "name": "civicrm/civicrm-cxn-rpc",
@@ -950,7 +950,7 @@
         },
         {
             "name": "civicrm/civicrm-drupal-8",
-            "version": "5.51.0",
+            "version": "5.51.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-drupal-8.git",
@@ -999,7 +999,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/5.51.0"
+                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/5.51.1"
             },
             "funding": [
                 {
