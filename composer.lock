@@ -104,16 +104,16 @@
         },
         {
             "name": "brick/math",
-            "version": "0.10.1",
+            "version": "0.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brick/math.git",
-                "reference": "de846578401f4e58f911b3afeb62ced56365ed87"
+                "reference": "459f2781e1a08d52ee56b0b1444086e038561e3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brick/math/zipball/de846578401f4e58f911b3afeb62ced56365ed87",
-                "reference": "de846578401f4e58f911b3afeb62ced56365ed87",
+                "url": "https://api.github.com/repos/brick/math/zipball/459f2781e1a08d52ee56b0b1444086e038561e3f",
+                "reference": "459f2781e1a08d52ee56b0b1444086e038561e3f",
                 "shasum": ""
             },
             "require": {
@@ -148,7 +148,7 @@
             ],
             "support": {
                 "issues": "https://github.com/brick/math/issues",
-                "source": "https://github.com/brick/math/tree/0.10.1"
+                "source": "https://github.com/brick/math/tree/0.10.2"
             },
             "funding": [
                 {
@@ -156,7 +156,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-08-01T22:54:31+00:00"
+            "time": "2022-08-10T22:54:19+00:00"
         },
         {
             "name": "brick/money",
@@ -434,16 +434,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "5.52.0",
+            "version": "5.52.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "04ae5d12ef221deaecffd756d875d70964c993d0"
+                "reference": "a9faea2c39a8c34f98a86f117df10cfafedfa560"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/04ae5d12ef221deaecffd756d875d70964c993d0",
-                "reference": "04ae5d12ef221deaecffd756d875d70964c993d0",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/a9faea2c39a8c34f98a86f117df10cfafedfa560",
+                "reference": "a9faea2c39a8c34f98a86f117df10cfafedfa560",
                 "shasum": ""
             },
             "require": {
@@ -476,6 +476,7 @@
                 "php": "~7.2.5 || ~7.3 || ~8",
                 "phpoffice/phpspreadsheet": "^1.18",
                 "phpoffice/phpword": "^0.18.0",
+                "psr/container": "~1.0",
                 "psr/log": "~1.0 || ~2.0 || ~3.0",
                 "psr/simple-cache": "~1.0.1",
                 "rubobaquero/phpquery": "^0.9.15",
@@ -487,6 +488,7 @@
                 "symfony/polyfill-iconv": "~1.0",
                 "symfony/polyfill-php73": "^1.23",
                 "symfony/process": "~4.4",
+                "symfony/service-contracts": "~2.2",
                 "symfony/var-dumper": "~3.0 || ~4.4 || ~5.1",
                 "tecnickcom/tcpdf": "6.4.*",
                 "totten/ca-config": "~22.05",
@@ -494,7 +496,7 @@
                 "typo3/phar-stream-wrapper": "^2 || ^3.0",
                 "xkerman/restricted-unserialize": "~1.1",
                 "zetacomponents/base": "1.9.*",
-                "zetacomponents/mail": "1.9.*"
+                "zetacomponents/mail": "~1.9.3"
             },
             "type": "library",
             "extra": {
@@ -827,8 +829,7 @@
                         "Add in CiviCRM custom error message for CRM-8744": "https://raw.githubusercontent.com/civicrm/civicrm-core/a6a0ff13d2a155ad962529595dceaef728116f96/tools/scripts/composer/patches/net-smtp-patch.patch"
                     },
                     "zetacomponents/mail": {
-                        "CiviCRM Custom Patches for ZetaCompoents mail": "https://raw.githubusercontent.com/civicrm/civicrm-core/9d93748a36c7c5d44422911db1c98fb2f7067b34/tools/scripts/composer/patches/civicrm-custom-patches-zetacompoents-mail.patch",
-                        "Allow single quotes to be used in return path": "https://github.com/zetacomponents/Mail/pull/86.patch"
+                        "CiviCRM Custom Patches for ZetaCompoents mail": "https://raw.githubusercontent.com/civicrm/civicrm-core/9d93748a36c7c5d44422911db1c98fb2f7067b34/tools/scripts/composer/patches/civicrm-custom-patches-zetacompoents-mail.patch"
                     }
                 },
                 "compile-includes": [
@@ -887,7 +888,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/5.52.0"
+                "source": "https://github.com/civicrm/civicrm-core/tree/5.52.2"
             },
             "funding": [
                 {
@@ -895,7 +896,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2022-08-04T10:16:55+00:00"
+            "time": "2022-08-13T05:27:17+00:00"
         },
         {
             "name": "civicrm/civicrm-cxn-rpc",
@@ -10098,23 +10099,23 @@
         },
         {
             "name": "zetacomponents/mail",
-            "version": "1.9.2",
+            "version": "1.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zetacomponents/Mail.git",
-                "reference": "c55267564d78724d4c25188fc653fef0da4c920a"
+                "reference": "7f7cf8135320fabf27f6530381da4977a31e1c78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zetacomponents/Mail/zipball/c55267564d78724d4c25188fc653fef0da4c920a",
-                "reference": "c55267564d78724d4c25188fc653fef0da4c920a",
+                "url": "https://api.github.com/repos/zetacomponents/Mail/zipball/7f7cf8135320fabf27f6530381da4977a31e1c78",
+                "reference": "7f7cf8135320fabf27f6530381da4977a31e1c78",
                 "shasum": ""
             },
             "require": {
                 "zetacomponents/base": "~1.8"
             },
             "require-dev": {
-                "phpunit/phpunit": "~7.5",
+                "phpunit/phpunit": "~9.0",
                 "zetacomponents/unit-test": "*"
             },
             "type": "library",
@@ -10172,9 +10173,9 @@
             "homepage": "https://github.com/zetacomponents",
             "support": {
                 "issues": "https://github.com/zetacomponents/Mail/issues",
-                "source": "https://github.com/zetacomponents/Mail/tree/1.9.2"
+                "source": "https://github.com/zetacomponents/Mail/tree/1.9.3"
             },
-            "time": "2020-06-13T12:38:26+00:00"
+            "time": "2022-08-09T09:42:33+00:00"
         }
     ],
     "packages-dev": [],
