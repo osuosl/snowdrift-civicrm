@@ -1002,7 +1002,7 @@
         },
         {
             "name": "civicrm/civicrm-packages",
-            "version": "5.52.2",
+            "version": "5.52.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-packages.git",
@@ -1018,7 +1018,7 @@
             "notification-url": "https://packagist.org/downloads/",
             "description": "Legacy third party dependencies for CiviCRM",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-packages/tree/5.52.2"
+                "source": "https://github.com/civicrm/civicrm-packages/tree/5.52.3"
             },
             "time": "2022-06-30T23:40:42+00:00"
         },
