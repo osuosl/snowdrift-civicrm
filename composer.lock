@@ -434,16 +434,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "5.52.3",
+            "version": "5.53.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "5a183fd9f043bde7067a5fddbf681056094bf615"
+                "reference": "ee58635b82ac5c92bdfc9fbb5c7f9b670ee86a31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/5a183fd9f043bde7067a5fddbf681056094bf615",
-                "reference": "5a183fd9f043bde7067a5fddbf681056094bf615",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/ee58635b82ac5c92bdfc9fbb5c7f9b670ee86a31",
+                "reference": "ee58635b82ac5c92bdfc9fbb5c7f9b670ee86a31",
                 "shasum": ""
             },
             "require": {
@@ -451,17 +451,18 @@
                 "brick/money": "~0.5",
                 "cache/integration-tests": "~0.17.0",
                 "civicrm/civicrm-cxn-rpc": "~0.20.12.01 || ~0.19.01.10",
-                "civicrm/composer-compile-lib": "~0.3 || ~1.0",
+                "civicrm/composer-compile-lib": "~0.6 || ~1.0",
                 "civicrm/composer-downloads-plugin": "^3.0",
+                "composer-runtime-api": "~2.0",
                 "cweagans/composer-patches": "~1.0",
                 "dompdf/dompdf": "~2",
                 "ext-intl": "*",
                 "ext-json": "*",
                 "ezyang/htmlpurifier": "^4.13",
                 "firebase/php-jwt": ">=3 <6",
-                "guzzlehttp/guzzle": "^6.3",
+                "guzzlehttp/guzzle": "^6.3 || ^7.3",
                 "html2text/html2text": "^4.3.1",
-                "league/csv": "^9.6",
+                "league/csv": "~9.6.2",
                 "league/oauth2-client": "^2.4",
                 "league/oauth2-google": "^3.0",
                 "marcj/topsort": "~1.1",
@@ -470,7 +471,7 @@
                 "pear/log": "1.13.3",
                 "pear/mail": "^1.4",
                 "pear/mail_mime": "~1.10",
-                "pear/net_smtp": "1.9.*",
+                "pear/net_smtp": "1.10.*",
                 "pear/net_socket": "1.0.*",
                 "pear/validate_finance_creditcard": "0.7.0",
                 "php": "~7.2.5 || ~7.3 || ~8",
@@ -487,6 +488,10 @@
                 "symfony/finder": "~4.4",
                 "symfony/polyfill-iconv": "~1.0",
                 "symfony/polyfill-php73": "^1.23",
+                "symfony/polyfill-php74": "^1.0",
+                "symfony/polyfill-php80": "^1.0",
+                "symfony/polyfill-php81": "^1.0",
+                "symfony/polyfill-php82": "^1.0",
                 "symfony/process": "~4.4",
                 "symfony/service-contracts": "~2.2",
                 "symfony/var-dumper": "~3.0 || ~4.4 || ~5.1",
@@ -813,11 +818,22 @@
                     "adrienrn/php-mimetyper": {
                         "Update gitignore to ensure that sites that manage via git don't miss out on the important db.json file": "https://patch-diff.githubusercontent.com/raw/adrienrn/php-mimetyper/pull/15.patch"
                     },
+                    "league/csv": {
+                        "Adding in eol support to fputcsv for php8.1": "https://raw.githubusercontent.com/civicrm/civicrm-core/cacdbfaeaed8e04d504bf2fc604536137c03abeb/tools/scripts/composer/leage_csv_fputcsv.patch",
+                        "Remove deprecated flag from php8.1": "https://github.com/thephpleague/csv/commit/380f884922a6cdaaaaab3ad4bfc7d1d710af736e.patch",
+                        "Fix php8.1 deprecation errors part 1": "https://github.com/thephpleague/csv/commit/613db0b20157a1114cb1f9a801bd4c9c1f609cdf.patch",
+                        "Fix php8.1 deprecation errors part 2": "https://github.com/thephpleague/csv/commit/49e2b08ca025ebaf87a904b5645f535c807b6f10.patch",
+                        "Fix php8.1 notice issues part 3": "https://github.com/thephpleague/csv/commit/b83e972caea3cd22e7aaf65c5cffff1d49b46b69.patch"
+                    },
                     "html2text/html2text": {
                         "Fix deprecation warning in php8.1 on html_entity_decode": "https://raw.githubusercontent.com/civicrm/civicrm-core/e758d20e9f613ca6c4cf652c23d2cd7e5d3af3ce/tools/scripts/composer/html2text_html2_text_php81_deprecation.patch"
                     },
                     "pear/db": {
+                        "Apply patch to ensure that MySQLI reporting remains the same in php8.1": "https://patch-diff.githubusercontent.com/raw/pear/DB/pull/13.patch",
                         "Apply CiviCRM Customisations for the pear:db package": "https://raw.githubusercontent.com/civicrm/civicrm-core/2ad420c394/tools/scripts/composer/pear_db_civicrm_changes.patch"
+                    },
+                    "pear/log": {
+                        "Apply patch for php8.1": "https://patch-diff.githubusercontent.com/raw/pear/Log/pull/23.patch"
                     },
                     "pear/mail": {
                         "Apply CiviCRM Customisations for CRM-1367 and CRM-5946": "https://raw.githubusercontent.com/civicrm/civicrm-core/36319938a5bf26c1e7e2110a26a65db6a5979268/tools/scripts/composer/patches/pear-mail.patch"
@@ -828,8 +844,12 @@
                     "pear/net_smtp": {
                         "Add in CiviCRM custom error message for CRM-8744": "https://raw.githubusercontent.com/civicrm/civicrm-core/a6a0ff13d2a155ad962529595dceaef728116f96/tools/scripts/composer/patches/net-smtp-patch.patch"
                     },
+                    "phpoffice/phpword": {
+                        "PHP8.1 fix for passing null value into strlen": "https://patch-diff.githubusercontent.com/raw/PHPOffice/PHPWord/pull/2272.patch"
+                    },
                     "zetacomponents/mail": {
-                        "CiviCRM Custom Patches for ZetaCompoents mail": "https://raw.githubusercontent.com/civicrm/civicrm-core/9d93748a36c7c5d44422911db1c98fb2f7067b34/tools/scripts/composer/patches/civicrm-custom-patches-zetacompoents-mail.patch"
+                        "CiviCRM Custom Patches for ZetaCompoents mail": "https://raw.githubusercontent.com/civicrm/civicrm-core/9d93748a36c7c5d44422911db1c98fb2f7067b34/tools/scripts/composer/patches/civicrm-custom-patches-zetacompoents-mail.patch",
+                        "CiviCRM Custom patch to fix a php8.1 issue found in CiviCRM unit tests": "https://raw.githubusercontent.com/civicrm/civicrm-core/5506f4ce5d46799857b4f4ddf34069e7541e9cc5/tools/scripts/composer/zetacomponents-php-81-civicrm-custom.patch"
                     }
                 },
                 "compile-includes": [
@@ -840,6 +860,9 @@
                 ]
             },
             "autoload": {
+                "files": [
+                    "guzzle_php81_shim.php"
+                ],
                 "psr-0": {
                     "Civi": "",
                     "Civi\\": [
@@ -888,7 +911,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/5.52.3"
+                "source": "https://github.com/civicrm/civicrm-core/tree/5.53.0"
             },
             "funding": [
                 {
@@ -896,7 +919,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2022-08-30T23:04:23+00:00"
+            "time": "2022-09-08T04:20:24+00:00"
         },
         {
             "name": "civicrm/civicrm-cxn-rpc",
@@ -941,16 +964,16 @@
         },
         {
             "name": "civicrm/civicrm-drupal-8",
-            "version": "5.52.3",
+            "version": "5.53.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-drupal-8.git",
-                "reference": "673cadbe45011cf3283751e7b97e875a093e5143"
+                "reference": "2db7510c98985b80af51167a0fd05e12c98fc4ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-drupal-8/zipball/673cadbe45011cf3283751e7b97e875a093e5143",
-                "reference": "673cadbe45011cf3283751e7b97e875a093e5143",
+                "url": "https://api.github.com/repos/civicrm/civicrm-drupal-8/zipball/2db7510c98985b80af51167a0fd05e12c98fc4ff",
+                "reference": "2db7510c98985b80af51167a0fd05e12c98fc4ff",
                 "shasum": ""
             },
             "require": {
@@ -990,7 +1013,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/5.52.3"
+                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/5.53.0"
             },
             "funding": [
                 {
@@ -998,7 +1021,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2022-06-11T18:16:05+00:00"
+            "time": "2022-08-05T00:41:22+00:00"
         },
         {
             "name": "civicrm/civicrm-packages",
@@ -4101,31 +4124,31 @@
         },
         {
             "name": "league/csv",
-            "version": "9.8.0",
+            "version": "9.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/csv.git",
-                "reference": "9d2e0265c5d90f5dd601bc65ff717e05cec19b47"
+                "reference": "f28da6e483bf979bac10e2add384c90ae9983e4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/csv/zipball/9d2e0265c5d90f5dd601bc65ff717e05cec19b47",
-                "reference": "9d2e0265c5d90f5dd601bc65ff717e05cec19b47",
+                "url": "https://api.github.com/repos/thephpleague/csv/zipball/f28da6e483bf979bac10e2add384c90ae9983e4e",
+                "reference": "f28da6e483bf979bac10e2add384c90ae9983e4e",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "ext-mbstring": "*",
-                "php": "^7.4 || ^8.0"
+                "php": ">=7.2.5"
             },
             "require-dev": {
                 "ext-curl": "*",
                 "ext-dom": "*",
-                "friendsofphp/php-cs-fixer": "^v3.4.0",
-                "phpstan/phpstan": "^1.3.0",
-                "phpstan/phpstan-phpunit": "^1.0.0",
-                "phpstan/phpstan-strict-rules": "^1.1.0",
-                "phpunit/phpunit": "^9.5.11"
+                "friendsofphp/php-cs-fixer": "^2.16",
+                "phpstan/phpstan": "^0.12.0",
+                "phpstan/phpstan-phpunit": "^0.12.0",
+                "phpstan/phpstan-strict-rules": "^0.12.0",
+                "phpunit/phpunit": "^8.5"
             },
             "suggest": {
                 "ext-dom": "Required to use the XMLConverter and or the HTMLConverter classes",
@@ -4158,7 +4181,7 @@
                 }
             ],
             "description": "CSV data manipulation made easy in PHP",
-            "homepage": "https://csv.thephpleague.com",
+            "homepage": "http://csv.thephpleague.com",
             "keywords": [
                 "convert",
                 "csv",
@@ -4181,7 +4204,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-01-04T00:13:07+00:00"
+            "time": "2020-12-10T19:40:30+00:00"
         },
         {
             "name": "league/oauth2-client",
@@ -5238,16 +5261,16 @@
         },
         {
             "name": "pear/net_smtp",
-            "version": "1.9.2",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/Net_SMTP.git",
-                "reference": "18b5dbaa049bee5f6d02c9a4318db02472e2c922"
+                "reference": "51e5997b711fbd1e5a9a075634d4d682168537fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/Net_SMTP/zipball/18b5dbaa049bee5f6d02c9a4318db02472e2c922",
-                "reference": "18b5dbaa049bee5f6d02c9a4318db02472e2c922",
+                "url": "https://api.github.com/repos/pear/Net_SMTP/zipball/51e5997b711fbd1e5a9a075634d4d682168537fa",
+                "reference": "51e5997b711fbd1e5a9a075634d4d682168537fa",
                 "shasum": ""
             },
             "require": {
@@ -5298,7 +5321,7 @@
                 "issues": "https://github.com/pear/Net_SMTP/issues",
                 "source": "https://github.com/pear/Net_SMTP"
             },
-            "time": "2020-08-13T01:26:09+00:00"
+            "time": "2021-03-19T18:39:42+00:00"
         },
         {
             "name": "pear/net_socket",
@@ -8356,6 +8379,86 @@
             "time": "2022-05-24T11:49:31+00:00"
         },
         {
+            "name": "symfony/polyfill-php74",
+            "version": "v1.26.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php74.git",
+                "reference": "ad4f7d62a17b1187d9f381f0a662aab19ff3c033"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php74/zipball/ad4f7d62a17b1187d9f381f0a662aab19ff3c033",
+                "reference": "ad4f7d62a17b1187d9f381f0a662aab19ff3c033",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.26-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php74\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ion Bazan",
+                    "email": "ion.bazan@gmail.com"
+                },
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 7.4+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php74/tree/v1.26.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-05-24T11:49:31+00:00"
+        },
+        {
             "name": "symfony/polyfill-php80",
             "version": "v1.25.0",
             "source": {
@@ -8516,6 +8619,85 @@
                 }
             ],
             "time": "2022-05-24T11:49:31+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php82",
+            "version": "v1.26.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php82.git",
+                "reference": "a88014fcea4120c9f77b4fefd48942ce38e412e7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php82/zipball/a88014fcea4120c9f77b4fefd48942ce38e412e7",
+                "reference": "a88014fcea4120c9f77b4fefd48942ce38e412e7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.26-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php82\\": ""
+                },
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 8.2+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php82/tree/v1.26.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-05-24T09:13:51+00:00"
         },
         {
             "name": "symfony/process",
