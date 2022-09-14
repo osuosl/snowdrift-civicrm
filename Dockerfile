@@ -9,5 +9,5 @@ RUN yum install -y php74-cli php74-json php74-mbstring php74-xml php74-pdo php74
 RUN sed -i -e 's/memory_limit.*/memory_limit = -1/' /etc/php.ini
 
 # install Composer
-RUN wget -q -O /usr/local/bin/composer https://getcomposer.org/download/2.1.4/composer.phar && \
+RUN wget -q -O /usr/local/bin/composer https://getcomposer.org/download/2.2.18/composer.phar && \
     chmod +x /usr/local/bin/composer
