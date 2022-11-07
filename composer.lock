@@ -1218,19 +1218,20 @@
         },
         {
             "name": "civicrm/cv",
-            "version": "v0.3.29",
+            "version": "v0.3.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/cv.git",
-                "reference": "cf4f644da6d007a32f1c583d68e6b0ae4fe6c45b"
+                "reference": "b65da144072e9a6a709f38b202d02303be5d6052"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/cv/zipball/cf4f644da6d007a32f1c583d68e6b0ae4fe6c45b",
-                "reference": "cf4f644da6d007a32f1c583d68e6b0ae4fe6c45b",
+                "url": "https://api.github.com/repos/civicrm/cv/zipball/b65da144072e9a6a709f38b202d02303be5d6052",
+                "reference": "b65da144072e9a6a709f38b202d02303be5d6052",
                 "shasum": ""
             },
             "require": {
+                "lesser-evil/shell-verbosity-is-evil": "~1.0",
                 "php": ">=7.2.0",
                 "psy/psysh": "@stable",
                 "symfony/console": "^4",
@@ -1259,9 +1260,9 @@
             "description": "CLI tool for CiviCRM",
             "support": {
                 "issues": "https://github.com/civicrm/cv/issues",
-                "source": "https://github.com/civicrm/cv/tree/v0.3.29"
+                "source": "https://github.com/civicrm/cv/tree/v0.3.30"
             },
-            "time": "2022-10-28T21:35:28+00:00"
+            "time": "2022-11-02T23:09:32+00:00"
         },
         {
             "name": "composer/installers",
@@ -4324,6 +4325,42 @@
                 "source": "https://github.com/thephpleague/oauth2-google/tree/3.0.4"
             },
             "time": "2021-01-27T16:09:03+00:00"
+        },
+        {
+            "name": "lesser-evil/shell-verbosity-is-evil",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/totten/shell-verbosity-is-evil.git",
+                "reference": "4195bce7e3adaeda6d4747a1f3ec3c39b124f169"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/totten/shell-verbosity-is-evil/zipball/4195bce7e3adaeda6d4747a1f3ec3c39b124f169",
+                "reference": "4195bce7e3adaeda6d4747a1f3ec3c39b124f169",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LesserEvil\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tim Otten",
+                    "email": "totten@civicrm.org"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/totten/shell-verbosity-is-evil/issues",
+                "source": "https://github.com/totten/shell-verbosity-is-evil/tree/v1.0.0"
+            },
+            "time": "2022-11-02T23:02:43+00:00"
         },
         {
             "name": "maennchen/zipstream-php",
