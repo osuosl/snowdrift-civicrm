@@ -435,16 +435,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "5.54.1",
+            "version": "5.55.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "fe7de90d3fc2fe8631adca2439eaa44a27db41c4"
+                "reference": "50ba554869bfcfedc5729c7764eeb242f8e87188"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/fe7de90d3fc2fe8631adca2439eaa44a27db41c4",
-                "reference": "fe7de90d3fc2fe8631adca2439eaa44a27db41c4",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/50ba554869bfcfedc5729c7764eeb242f8e87188",
+                "reference": "50ba554869bfcfedc5729c7764eeb242f8e87188",
                 "shasum": ""
             },
             "require": {
@@ -498,7 +498,7 @@
                 "symfony/var-dumper": "~3.0 || ~4.4 || ~5.1",
                 "tecnickcom/tcpdf": "6.4.*",
                 "totten/ca-config": "~22.05",
-                "tplaner/when": "~3.0.0",
+                "tplaner/when": "~3.1",
                 "typo3/phar-stream-wrapper": "^2 || ^3.0",
                 "xkerman/restricted-unserialize": "~1.1",
                 "zetacomponents/base": "1.9.*",
@@ -731,7 +731,7 @@
                         "url": "https://github.com/civicrm/jquery/archive/1.12.4-civicrm-1.2.zip"
                     },
                     "jquery-ui": {
-                        "url": "https://github.com/civicrm/jqueryui/archive/1.13.1-civicrm.zip"
+                        "url": "https://github.com/civicrm/jqueryui/archive/1.13.2-civicrm.zip"
                     },
                     "jquery-validation": {
                         "url": "https://github.com/jquery-validation/jquery-validation/archive/1.19.3.zip",
@@ -912,7 +912,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/5.54.1"
+                "source": "https://github.com/civicrm/civicrm-core/tree/5.55.0"
             },
             "funding": [
                 {
@@ -920,7 +920,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2022-10-28T03:08:36+00:00"
+            "time": "2022-11-03T02:17:02+00:00"
         },
         {
             "name": "civicrm/civicrm-cxn-rpc",
@@ -965,7 +965,7 @@
         },
         {
             "name": "civicrm/civicrm-drupal-8",
-            "version": "5.54.1",
+            "version": "5.55.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-drupal-8.git",
@@ -1014,7 +1014,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/5.54.1"
+                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/5.55.0"
             },
             "funding": [
                 {
@@ -9659,16 +9659,16 @@
         },
         {
             "name": "totten/ca-config",
-            "version": "v22.05.0",
+            "version": "v22.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/totten/ca_config.git",
-                "reference": "5d71e1587ea6b18532f0b72b06fab103c1dcf8db"
+                "reference": "8a78926b11f00e6a154098aeb2110df53b8a3c67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/totten/ca_config/zipball/5d71e1587ea6b18532f0b72b06fab103c1dcf8db",
-                "reference": "5d71e1587ea6b18532f0b72b06fab103c1dcf8db",
+                "url": "https://api.github.com/repos/totten/ca_config/zipball/8a78926b11f00e6a154098aeb2110df53b8a3c67",
+                "reference": "8a78926b11f00e6a154098aeb2110df53b8a3c67",
                 "shasum": ""
             },
             "require": {
@@ -9694,9 +9694,9 @@
             "homepage": "https://github.com/totten/ca_config",
             "support": {
                 "issues": "https://github.com/totten/ca_config/issues",
-                "source": "https://github.com/totten/ca_config/tree/v22.05.0"
+                "source": "https://github.com/totten/ca_config/tree/v22.11.0"
             },
-            "time": "2022-05-05T05:35:59+00:00"
+            "time": "2022-11-06T02:39:19+00:00"
         },
         {
             "name": "totten/lurkerlite",
@@ -9763,16 +9763,16 @@
         },
         {
             "name": "tplaner/when",
-            "version": "v3.0.0",
+            "version": "v3.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tplaner/When.git",
-                "reference": "09182e1707085382b8207c480120e96e98880563"
+                "reference": "8865acc235df8f57c2b229517c57c613b11ce4aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tplaner/When/zipball/09182e1707085382b8207c480120e96e98880563",
-                "reference": "09182e1707085382b8207c480120e96e98880563",
+                "url": "https://api.github.com/repos/tplaner/When/zipball/8865acc235df8f57c2b229517c57c613b11ce4aa",
+                "reference": "8865acc235df8f57c2b229517c57c613b11ce4aa",
                 "shasum": ""
             },
             "require": {
@@ -9808,9 +9808,9 @@
             ],
             "support": {
                 "issues": "https://github.com/tplaner/When/issues",
-                "source": "https://github.com/tplaner/When/tree/v3.0.0"
+                "source": "https://github.com/tplaner/When/tree/v3.1.5"
             },
-            "time": "2019-04-17T14:46:29+00:00"
+            "time": "2021-09-24T14:09:59+00:00"
         },
         {
             "name": "tubalmartin/cssmin",
