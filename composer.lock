@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d9f805257e1444821ea1547ed5e380cd",
+    "content-hash": "6f0a5e0e76b8c55487b701689f360611",
     "packages": [
         {
             "name": "adrienrn/php-mimetyper",
@@ -2770,20 +2770,20 @@
         },
         {
             "name": "drupal/core-project-message",
-            "version": "9.4.9",
+            "version": "10.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-project-message.git",
-                "reference": "5dfa0b75a057caf6542be67f61e7531c737db48c"
+                "reference": "b4bb5b4c67242def27c2abf5892e5d9bfb7d08f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-project-message/zipball/5dfa0b75a057caf6542be67f61e7531c737db48c",
-                "reference": "5dfa0b75a057caf6542be67f61e7531c737db48c",
+                "url": "https://api.github.com/repos/drupal/core-project-message/zipball/b4bb5b4c67242def27c2abf5892e5d9bfb7d08f1",
+                "reference": "b4bb5b4c67242def27c2abf5892e5d9bfb7d08f1",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.1 || ^2",
+                "composer-plugin-api": "^2",
                 "php": ">=7.3.0"
             },
             "type": "composer-plugin",
@@ -2805,9 +2805,9 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-project-message/tree/9.5.0-rc1"
+                "source": "https://github.com/drupal/core-project-message/tree/10.0.0"
             },
-            "time": "2022-02-24T17:40:53+00:00"
+            "time": "2022-07-01T08:33:05+00:00"
         },
         {
             "name": "drupal/core-recommended",
