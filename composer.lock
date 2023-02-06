@@ -435,16 +435,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "5.57.2",
+            "version": "5.58.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "1addfdcbc131f23c79e1965238799af5c3bd7cbc"
+                "reference": "cd24acea9d5cf85df3b0fe54fc5cadfcf60a8cef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/1addfdcbc131f23c79e1965238799af5c3bd7cbc",
-                "reference": "1addfdcbc131f23c79e1965238799af5c3bd7cbc",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/cd24acea9d5cf85df3b0fe54fc5cadfcf60a8cef",
+                "reference": "cd24acea9d5cf85df3b0fe54fc5cadfcf60a8cef",
                 "shasum": ""
             },
             "require": {
@@ -456,7 +456,7 @@
                 "civicrm/composer-downloads-plugin": "^3.0",
                 "composer-runtime-api": "~2.0",
                 "cweagans/composer-patches": "~1.0",
-                "dompdf/dompdf": "~2.0.1",
+                "dompdf/dompdf": "~2.0.2",
                 "ext-fileinfo": "*",
                 "ext-intl": "*",
                 "ext-json": "*",
@@ -476,7 +476,7 @@
                 "pear/net_smtp": "1.10.*",
                 "pear/net_socket": "1.0.*",
                 "pear/validate_finance_creditcard": "0.7.0",
-                "php": "~7.2.5 || ~7.3 || ~8",
+                "php": "~7.3 || ~8",
                 "phpoffice/phpspreadsheet": "^1.18",
                 "phpoffice/phpword": "^0.18.0",
                 "psr/container": "~1.0",
@@ -917,7 +917,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/5.57.2"
+                "source": "https://github.com/civicrm/civicrm-core/tree/5.58.0"
             },
             "funding": [
                 {
@@ -925,7 +925,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-01-26T09:26:50+00:00"
+            "time": "2023-02-02T00:56:03+00:00"
         },
         {
             "name": "civicrm/civicrm-cxn-rpc",
