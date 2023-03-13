@@ -1223,24 +1223,24 @@
         },
         {
             "name": "civicrm/cv",
-            "version": "v0.3.32",
+            "version": "v0.3.34",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/cv.git",
-                "reference": "4032d448ff75628648309163cca6a8331b947215"
+                "reference": "4f3cb88f9f39a9dd8f77f740252565ac6c834f58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/cv/zipball/4032d448ff75628648309163cca6a8331b947215",
-                "reference": "4032d448ff75628648309163cca6a8331b947215",
+                "url": "https://api.github.com/repos/civicrm/cv/zipball/4f3cb88f9f39a9dd8f77f740252565ac6c834f58",
+                "reference": "4f3cb88f9f39a9dd8f77f740252565ac6c834f58",
                 "shasum": ""
             },
             "require": {
+                "ext-json": "*",
                 "lesser-evil/shell-verbosity-is-evil": "~1.0",
-                "php": ">=7.2.0",
+                "php": ">=7.3.0",
                 "psy/psysh": "@stable",
                 "symfony/console": "^4",
-                "symfony/filesystem": "^4",
                 "symfony/process": "^4"
             },
             "bin": [
@@ -1265,9 +1265,9 @@
             "description": "CLI tool for CiviCRM",
             "support": {
                 "issues": "https://github.com/civicrm/cv/issues",
-                "source": "https://github.com/civicrm/cv/tree/v0.3.32"
+                "source": "https://github.com/civicrm/cv/tree/v0.3.34"
             },
-            "time": "2023-02-11T13:12:06+00:00"
+            "time": "2023-03-10T23:19:25+00:00"
         },
         {
             "name": "composer/installers",
