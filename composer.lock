@@ -435,16 +435,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "5.59.1",
+            "version": "5.59.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "6e3ac779204df17644db8b11968aeb3bddcf505d"
+                "reference": "296d9bc9f06a794542187e8618350a0b69d99039"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/6e3ac779204df17644db8b11968aeb3bddcf505d",
-                "reference": "6e3ac779204df17644db8b11968aeb3bddcf505d",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/296d9bc9f06a794542187e8618350a0b69d99039",
+                "reference": "296d9bc9f06a794542187e8618350a0b69d99039",
                 "shasum": ""
             },
             "require": {
@@ -917,7 +917,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/5.59.1"
+                "source": "https://github.com/civicrm/civicrm-core/tree/5.59.2"
             },
             "funding": [
                 {
@@ -925,7 +925,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-03-04T03:44:16+00:00"
+            "time": "2023-03-11T00:43:08+00:00"
         },
         {
             "name": "civicrm/civicrm-cxn-rpc",
