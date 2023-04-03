@@ -435,16 +435,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "5.59.3",
+            "version": "5.59.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "a470f36404babb775566c3ace40a84f8b05be44e"
+                "reference": "5a40b8aac7a5b0cd7b8f432c31deae79c454b9be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/a470f36404babb775566c3ace40a84f8b05be44e",
-                "reference": "a470f36404babb775566c3ace40a84f8b05be44e",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/5a40b8aac7a5b0cd7b8f432c31deae79c454b9be",
+                "reference": "5a40b8aac7a5b0cd7b8f432c31deae79c454b9be",
                 "shasum": ""
             },
             "require": {
@@ -917,7 +917,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/5.59.3"
+                "source": "https://github.com/civicrm/civicrm-core/tree/5.59.4"
             },
             "funding": [
                 {
@@ -925,7 +925,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-03-16T01:10:44+00:00"
+            "time": "2023-03-27T22:59:09+00:00"
         },
         {
             "name": "civicrm/civicrm-cxn-rpc",
@@ -970,7 +970,7 @@
         },
         {
             "name": "civicrm/civicrm-drupal-8",
-            "version": "5.59.3",
+            "version": "5.59.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-drupal-8.git",
@@ -1019,7 +1019,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/5.59.3"
+                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/5.59.4"
             },
             "funding": [
                 {
@@ -9443,16 +9443,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v5.4.21",
+            "version": "v5.4.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "6c5ac3a1be8b849d59a1a77877ee110e1b55eb74"
+                "reference": "e2edac9ce47e6df07e38143c7cfa6bdbc1a6dcc4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/6c5ac3a1be8b849d59a1a77877ee110e1b55eb74",
-                "reference": "6c5ac3a1be8b849d59a1a77877ee110e1b55eb74",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/e2edac9ce47e6df07e38143c7cfa6bdbc1a6dcc4",
+                "reference": "e2edac9ce47e6df07e38143c7cfa6bdbc1a6dcc4",
                 "shasum": ""
             },
             "require": {
@@ -9512,7 +9512,7 @@
                 "dump"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/v5.4.21"
+                "source": "https://github.com/symfony/var-dumper/tree/v5.4.22"
             },
             "funding": [
                 {
@@ -9528,7 +9528,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-23T10:00:28+00:00"
+            "time": "2023-03-25T09:27:28+00:00"
         },
         {
             "name": "symfony/yaml",
