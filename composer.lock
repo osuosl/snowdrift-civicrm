@@ -217,131 +217,6 @@
             "time": "2023-01-15T23:31:13+00:00"
         },
         {
-            "name": "cache/integration-tests",
-            "version": "0.17.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-cache/integration-tests.git",
-                "reference": "eda2e6b8bc5abcd623c8047e2345cda38dd6479e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-cache/integration-tests/zipball/eda2e6b8bc5abcd623c8047e2345cda38dd6479e",
-                "reference": "eda2e6b8bc5abcd623c8047e2345cda38dd6479e",
-                "shasum": ""
-            },
-            "require": {
-                "cache/tag-interop": "^1.0",
-                "php": ">=5.5.9",
-                "psr/cache": "~1.0"
-            },
-            "conflict": {
-                "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0"
-            },
-            "require-dev": {
-                "cache/cache": "^1.0",
-                "illuminate/cache": "^5.4|^5.5|^5.6",
-                "mockery/mockery": "^1.0",
-                "symfony/cache": "^3.4.31|^4.3.4|^5.0",
-                "symfony/phpunit-bridge": "^5.1",
-                "tedivm/stash": "^0.14"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Cache\\IntegrationTests\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Aaron Scherer",
-                    "email": "aequasi@gmail.com",
-                    "homepage": "https://github.com/aequasi"
-                },
-                {
-                    "name": "Tobias Nyholm",
-                    "email": "tobias.nyholm@gmail.com",
-                    "homepage": "https://github.com/nyholm"
-                }
-            ],
-            "description": "Integration tests for PSR-6 and PSR-16 cache implementations",
-            "homepage": "https://github.com/php-cache/integration-tests",
-            "keywords": [
-                "cache",
-                "psr16",
-                "psr6",
-                "test"
-            ],
-            "support": {
-                "issues": "https://github.com/php-cache/integration-tests/issues",
-                "source": "https://github.com/php-cache/integration-tests/tree/0.17.0"
-            },
-            "time": "2020-11-03T12:52:23+00:00"
-        },
-        {
-            "name": "cache/tag-interop",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-cache/tag-interop.git",
-                "reference": "b062b1d735357da50edf8387f7a8696f3027d328"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-cache/tag-interop/zipball/b062b1d735357da50edf8387f7a8696f3027d328",
-                "reference": "b062b1d735357da50edf8387f7a8696f3027d328",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.5 || ^7.0 || ^8.0",
-                "psr/cache": "^1.0 || ^2.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Cache\\TagInterop\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Tobias Nyholm",
-                    "email": "tobias.nyholm@gmail.com",
-                    "homepage": "https://github.com/nyholm"
-                },
-                {
-                    "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com",
-                    "homepage": "https://github.com/nicolas-grekas"
-                }
-            ],
-            "description": "Framework interoperable interfaces for tags",
-            "homepage": "https://www.php-cache.com/en/latest/",
-            "keywords": [
-                "cache",
-                "psr",
-                "psr6",
-                "tag"
-            ],
-            "support": {
-                "issues": "https://github.com/php-cache/tag-interop/issues",
-                "source": "https://github.com/php-cache/tag-interop/tree/1.1.0"
-            },
-            "time": "2021-12-31T10:03:23+00:00"
-        },
-        {
             "name": "chi-teck/drupal-code-generator",
             "version": "1.33.1",
             "source": {
@@ -435,22 +310,21 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "5.59.4",
+            "version": "5.60.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "5a40b8aac7a5b0cd7b8f432c31deae79c454b9be"
+                "reference": "fadbe2424f36072c5fa5dc633f11dfaf48942951"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/5a40b8aac7a5b0cd7b8f432c31deae79c454b9be",
-                "reference": "5a40b8aac7a5b0cd7b8f432c31deae79c454b9be",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/fadbe2424f36072c5fa5dc633f11dfaf48942951",
+                "reference": "fadbe2424f36072c5fa5dc633f11dfaf48942951",
                 "shasum": ""
             },
             "require": {
                 "adrienrn/php-mimetyper": "0.2.2",
                 "brick/money": "~0.5",
-                "cache/integration-tests": "~0.17.0",
                 "civicrm/civicrm-cxn-rpc": "~0.20.12.01 || ~0.19.01.10",
                 "civicrm/composer-compile-lib": "~0.6 || ~1.0",
                 "civicrm/composer-downloads-plugin": "^3.0",
@@ -479,24 +353,24 @@
                 "php": "~7.3 || ~8",
                 "phpoffice/phpspreadsheet": "^1.18",
                 "phpoffice/phpword": "^0.18.0",
-                "psr/container": "~1.0",
+                "psr/container": "~1.0 || ~2.0",
                 "psr/log": "~1.0 || ~2.0 || ~3.0",
                 "psr/simple-cache": "~1.0.1",
                 "rubobaquero/phpquery": "^0.9.15",
-                "symfony/config": "~4.4",
-                "symfony/dependency-injection": "~4.4",
-                "symfony/event-dispatcher": "~4.4",
-                "symfony/filesystem": "~4.4",
-                "symfony/finder": "~4.4",
+                "symfony/config": "~4.4 || ~6.0",
+                "symfony/dependency-injection": "~4.4 || ~6.0",
+                "symfony/event-dispatcher": "~4.4 || ~6.0",
+                "symfony/filesystem": "~4.4 || ~6.0",
+                "symfony/finder": "~4.4 || ~6.0",
                 "symfony/polyfill-iconv": "~1.0",
                 "symfony/polyfill-php73": "^1.23",
                 "symfony/polyfill-php74": "^1.0",
                 "symfony/polyfill-php80": "^1.0",
                 "symfony/polyfill-php81": "^1.0",
                 "symfony/polyfill-php82": "^1.0",
-                "symfony/process": "~4.4",
-                "symfony/service-contracts": "~2.2",
-                "symfony/var-dumper": "~3.0 || ~4.4 || ~5.1",
+                "symfony/process": "~4.4 || ~6.0",
+                "symfony/service-contracts": "~2.2 || ~3.1",
+                "symfony/var-dumper": "~3.0 || ~4.4 || ~5.1 || ~6.0",
                 "tecnickcom/tcpdf": "6.4.*",
                 "totten/ca-config": "~22.11",
                 "tplaner/when": "~3.1",
@@ -917,7 +791,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/5.59.4"
+                "source": "https://github.com/civicrm/civicrm-core/tree/5.60.0"
             },
             "funding": [
                 {
@@ -925,7 +799,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-03-27T22:59:09+00:00"
+            "time": "2023-04-06T04:41:10+00:00"
         },
         {
             "name": "civicrm/civicrm-cxn-rpc",
