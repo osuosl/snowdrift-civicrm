@@ -2,7 +2,14 @@ FROM centos:7
 LABEL MAINTAINER="OSU Open Source Lab <dockerhub@osuosl.org>"
 
 # install PHP
-RUN yum install -y https://repo.ius.io/ius-release-el7.rpm epel-release
+RUN sed -i '/baseurl=http/s/^#//g' /etc/yum.repos.d/CentOS-Base.repo && \
+    sed -i '/mirrorlist=http/s/^/#/g' /etc/yum.repos.d/CentOS-Base.repo && \
+    sed -ie 's/mirror.centos.org/ftp.osuosl.org\/pub/' /etc/yum.repos.d/CentOS-Base.repo
+RUN yum -y install https://repo.ius.io/ius-release-el7.rpm epel-release && \
+    sed -i '/baseurl=http/s/^#//g' /etc/yum.repos.d/epel.repo && \
+    sed -i '/metalink=http/s/^/#/g' /etc/yum.repos.d/epel.repo && \
+    sed -ie 's/download.fedoraproject.org\/pub\/epel/ftp.osuosl.org\/pub\/fedora-epel/' /etc/yum.repos.d/epel.repo
+RUN yum-config-manager --enable ius-archive
 RUN yum install -y php74-cli php74-json php74-mbstring php74-xml php74-pdo php74-opcache php74-mysqlnd php74-gd \
     php74-intl php74-pecl-zip wget unzip git236 patch
 
