@@ -21,7 +21,7 @@
         "civicrm/civicrm-packages": "~5.41",
         "civicrm/cv": "~0.3",
         "composer/installers": "~2.2",
-        "drupal/civicrm_entity": "~3.0'",
+        "drupal/civicrm_entity": "~3.0",
         "drupal/core-composer-scaffold": "~10.0",
         "drupal/core-project-message": "~10.0",
         "drupal/core-recommended": "~9.2",
