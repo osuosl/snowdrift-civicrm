@@ -310,16 +310,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "5.61.3",
+            "version": "5.61.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "c5f2dd3d3656c353d83b69a56f7b49e956c3a5b3"
+                "reference": "8f6a77f8002176cffad9211a21da9dee65e6dd0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/c5f2dd3d3656c353d83b69a56f7b49e956c3a5b3",
-                "reference": "c5f2dd3d3656c353d83b69a56f7b49e956c3a5b3",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/8f6a77f8002176cffad9211a21da9dee65e6dd0c",
+                "reference": "8f6a77f8002176cffad9211a21da9dee65e6dd0c",
                 "shasum": ""
             },
             "require": {
@@ -788,7 +788,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/5.61.3"
+                "source": "https://github.com/civicrm/civicrm-core/tree/5.61.4"
             },
             "funding": [
                 {
@@ -796,7 +796,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-05-20T00:58:10+00:00"
+            "time": "2023-05-24T06:53:00+00:00"
         },
         {
             "name": "civicrm/civicrm-cxn-rpc",
@@ -9363,16 +9363,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v5.4.23",
+            "version": "v5.4.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "9a8a5b6d6508928174ded2109e29328a55342a42"
+                "reference": "8e12706bf9c68a2da633f23bfdc15b4dce5970b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/9a8a5b6d6508928174ded2109e29328a55342a42",
-                "reference": "9a8a5b6d6508928174ded2109e29328a55342a42",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/8e12706bf9c68a2da633f23bfdc15b4dce5970b3",
+                "reference": "8e12706bf9c68a2da633f23bfdc15b4dce5970b3",
                 "shasum": ""
             },
             "require": {
@@ -9381,7 +9381,6 @@
                 "symfony/polyfill-php80": "^1.16"
             },
             "conflict": {
-                "phpunit/phpunit": "<5.4.3",
                 "symfony/console": "<4.4"
             },
             "require-dev": {
@@ -9432,7 +9431,7 @@
                 "dump"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/v5.4.23"
+                "source": "https://github.com/symfony/var-dumper/tree/v5.4.24"
             },
             "funding": [
                 {
@@ -9448,7 +9447,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-18T09:26:27+00:00"
+            "time": "2023-05-25T13:05:00+00:00"
         },
         {
             "name": "symfony/yaml",
