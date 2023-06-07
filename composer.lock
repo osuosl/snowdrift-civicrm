@@ -2417,17 +2417,17 @@
         },
         {
             "name": "drupal/civicrm_entity",
-            "version": "3.4.0",
+            "version": "3.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/civicrm_entity.git",
-                "reference": "8.x-3.4"
+                "reference": "8.x-3.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/civicrm_entity-8.x-3.4.zip",
-                "reference": "8.x-3.4",
-                "shasum": "8ad05acd4935cc5cbd84d931924d2dfdc7f51063"
+                "url": "https://ftp.drupal.org/files/projects/civicrm_entity-8.x-3.5.zip",
+                "reference": "8.x-3.5",
+                "shasum": "b086c91f86e518e928957a17286356853ce54cb4"
             },
             "require": {
                 "civicrm/civicrm-drupal-8": "*",
@@ -2436,13 +2436,13 @@
             "require-dev": {
                 "drupal/fullcalendar_view": "^5.0",
                 "drupal/leaflet": "^2",
-                "drupal/leaflet_views": "^2.0.0"
+                "drupal/leaflet_views": "^2.2.6"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-3.4",
-                    "datestamp": "1675890503",
+                    "version": "8.x-3.5",
+                    "datestamp": "1685651538",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2454,6 +2454,10 @@
                 "GPL-2.0+"
             ],
             "authors": [
+                {
+                    "name": "dsdeiz",
+                    "homepage": "https://www.drupal.org/user/447770"
+                },
                 {
                     "name": "eileenmcnaughton",
                     "homepage": "https://www.drupal.org/user/249551"
@@ -2977,16 +2981,16 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "3.2.5",
+            "version": "3.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "b531a2311709443320c786feb4519cfaf94af796"
+                "reference": "e5997fa97e8790cdae03a9cbd5e78e45e3c7bda7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/b531a2311709443320c786feb4519cfaf94af796",
-                "reference": "b531a2311709443320c786feb4519cfaf94af796",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/e5997fa97e8790cdae03a9cbd5e78e45e3c7bda7",
+                "reference": "e5997fa97e8790cdae03a9cbd5e78e45e3c7bda7",
                 "shasum": ""
             },
             "require": {
@@ -3032,7 +3036,7 @@
             ],
             "support": {
                 "issues": "https://github.com/egulias/EmailValidator/issues",
-                "source": "https://github.com/egulias/EmailValidator/tree/3.2.5"
+                "source": "https://github.com/egulias/EmailValidator/tree/3.2.6"
             },
             "funding": [
                 {
@@ -3040,7 +3044,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-01-02T17:26:14+00:00"
+            "time": "2023-06-01T07:04:22+00:00"
         },
         {
             "name": "enlightn/security-checker",
