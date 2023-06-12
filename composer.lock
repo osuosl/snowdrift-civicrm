@@ -310,16 +310,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "5.61.4",
+            "version": "5.62.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "8f6a77f8002176cffad9211a21da9dee65e6dd0c"
+                "reference": "da223dafffa4a8b232f9551b1d5662f875a2ec3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/8f6a77f8002176cffad9211a21da9dee65e6dd0c",
-                "reference": "8f6a77f8002176cffad9211a21da9dee65e6dd0c",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/da223dafffa4a8b232f9551b1d5662f875a2ec3b",
+                "reference": "da223dafffa4a8b232f9551b1d5662f875a2ec3b",
                 "shasum": ""
             },
             "require": {
@@ -338,7 +338,7 @@
                 "firebase/php-jwt": ">=3 <6",
                 "guzzlehttp/guzzle": "^6.3 || ^7.3",
                 "html2text/html2text": "^4.3.1",
-                "league/csv": "~9.6.2",
+                "league/csv": "~9.7.4",
                 "league/oauth2-client": "^2.4",
                 "league/oauth2-google": "^3.0",
                 "marcj/topsort": "~1.1",
@@ -694,13 +694,6 @@
                     "adrienrn/php-mimetyper": {
                         "Update gitignore to ensure that sites that manage via git don't miss out on the important db.json file": "https://patch-diff.githubusercontent.com/raw/adrienrn/php-mimetyper/pull/15.patch"
                     },
-                    "league/csv": {
-                        "Adding in eol support to fputcsv for php8.1": "https://raw.githubusercontent.com/civicrm/civicrm-core/cacdbfaeaed8e04d504bf2fc604536137c03abeb/tools/scripts/composer/leage_csv_fputcsv.patch",
-                        "Remove deprecated flag from php8.1": "https://github.com/thephpleague/csv/commit/380f884922a6cdaaaaab3ad4bfc7d1d710af736e.patch",
-                        "Fix php8.1 deprecation errors part 1": "https://github.com/thephpleague/csv/commit/613db0b20157a1114cb1f9a801bd4c9c1f609cdf.patch",
-                        "Fix php8.1 deprecation errors part 2": "https://github.com/thephpleague/csv/commit/49e2b08ca025ebaf87a904b5645f535c807b6f10.patch",
-                        "Fix php8.1 notice issues part 3": "https://github.com/thephpleague/csv/commit/b83e972caea3cd22e7aaf65c5cffff1d49b46b69.patch"
-                    },
                     "html2text/html2text": {
                         "Fix deprecation warning in php8.1 on html_entity_decode": "https://raw.githubusercontent.com/civicrm/civicrm-core/e758d20e9f613ca6c4cf652c23d2cd7e5d3af3ce/tools/scripts/composer/html2text_html2_text_php81_deprecation.patch"
                     },
@@ -788,7 +781,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/5.61.4"
+                "source": "https://github.com/civicrm/civicrm-core/tree/5.62.0"
             },
             "funding": [
                 {
@@ -796,7 +789,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-05-24T06:53:00+00:00"
+            "time": "2023-06-07T22:25:59+00:00"
         },
         {
             "name": "civicrm/civicrm-cxn-rpc",
@@ -3952,31 +3945,31 @@
         },
         {
             "name": "league/csv",
-            "version": "9.6.2",
+            "version": "9.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/csv.git",
-                "reference": "f28da6e483bf979bac10e2add384c90ae9983e4e"
+                "reference": "002f55f649e7511710dc7154ff44c7be32c8195c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/csv/zipball/f28da6e483bf979bac10e2add384c90ae9983e4e",
-                "reference": "f28da6e483bf979bac10e2add384c90ae9983e4e",
+                "url": "https://api.github.com/repos/thephpleague/csv/zipball/002f55f649e7511710dc7154ff44c7be32c8195c",
+                "reference": "002f55f649e7511710dc7154ff44c7be32c8195c",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "ext-mbstring": "*",
-                "php": ">=7.2.5"
+                "php": "^7.3 || ^8.0"
             },
             "require-dev": {
                 "ext-curl": "*",
                 "ext-dom": "*",
-                "friendsofphp/php-cs-fixer": "^2.16",
-                "phpstan/phpstan": "^0.12.0",
-                "phpstan/phpstan-phpunit": "^0.12.0",
-                "phpstan/phpstan-strict-rules": "^0.12.0",
-                "phpunit/phpunit": "^8.5"
+                "friendsofphp/php-cs-fixer": "^3.0",
+                "phpstan/phpstan": "^1.0",
+                "phpstan/phpstan-phpunit": "^1.0.0",
+                "phpstan/phpstan-strict-rules": "^1.0",
+                "phpunit/phpunit": "^9.5"
             },
             "suggest": {
                 "ext-dom": "Required to use the XMLConverter and or the HTMLConverter classes",
@@ -4032,7 +4025,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-12-10T19:40:30+00:00"
+            "time": "2021-11-30T07:09:34+00:00"
         },
         {
             "name": "league/oauth2-client",
