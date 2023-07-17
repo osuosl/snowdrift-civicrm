@@ -1092,16 +1092,16 @@
         },
         {
             "name": "civicrm/cv",
-            "version": "v0.3.43",
+            "version": "v0.3.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/cv.git",
-                "reference": "b279cd6cb49aa65b9f3cd14e3373c059fc39e8b4"
+                "reference": "9d50c00350b913f0f1973760591df3d42aa97a64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/cv/zipball/b279cd6cb49aa65b9f3cd14e3373c059fc39e8b4",
-                "reference": "b279cd6cb49aa65b9f3cd14e3373c059fc39e8b4",
+                "url": "https://api.github.com/repos/civicrm/cv/zipball/9d50c00350b913f0f1973760591df3d42aa97a64",
+                "reference": "9d50c00350b913f0f1973760591df3d42aa97a64",
                 "shasum": ""
             },
             "require": {
@@ -1110,8 +1110,12 @@
                 "php": ">=7.3.0",
                 "psr/log": "~1.1 || ~2.0 || ~3.0",
                 "psy/psysh": "@stable",
+                "stecman/symfony-console-completion": "^0.11.0",
                 "symfony/console": "^4",
                 "symfony/process": "^4"
+            },
+            "replace": {
+                "civicrm/cv-lib": "self.version"
             },
             "bin": [
                 "bin/cv"
@@ -1119,7 +1123,10 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Civi\\Cv\\": "src/"
+                    "Civi\\Cv\\": [
+                        "lib/src/",
+                        "src/"
+                    ]
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1135,9 +1142,9 @@
             "description": "CLI tool for CiviCRM",
             "support": {
                 "issues": "https://github.com/civicrm/cv/issues",
-                "source": "https://github.com/civicrm/cv/tree/v0.3.43"
+                "source": "https://github.com/civicrm/cv/tree/v0.3.45"
             },
-            "time": "2023-06-27T22:19:22+00:00"
+            "time": "2023-07-13T11:54:43+00:00"
         },
         {
             "name": "composer/installers",
@@ -6377,16 +6384,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.11.18",
+            "version": "v0.11.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "4f00ee9e236fa6a48f4560d1300b9c961a70a7ec"
+                "reference": "1724ceff278daeeac5a006744633bacbb2dc4706"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/4f00ee9e236fa6a48f4560d1300b9c961a70a7ec",
-                "reference": "4f00ee9e236fa6a48f4560d1300b9c961a70a7ec",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/1724ceff278daeeac5a006744633bacbb2dc4706",
+                "reference": "1724ceff278daeeac5a006744633bacbb2dc4706",
                 "shasum": ""
             },
             "require": {
@@ -6447,9 +6454,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-                "source": "https://github.com/bobthecow/psysh/tree/v0.11.18"
+                "source": "https://github.com/bobthecow/psysh/tree/v0.11.19"
             },
-            "time": "2023-05-23T02:31:11+00:00"
+            "time": "2023-07-15T19:42:19+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -6728,6 +6735,55 @@
                 "source": "https://github.com/stackphp/builder/tree/v1.0.6"
             },
             "time": "2020-01-30T12:17:27+00:00"
+        },
+        {
+            "name": "stecman/symfony-console-completion",
+            "version": "0.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stecman/symfony-console-completion.git",
+                "reference": "a9502dab59405e275a9f264536c4e1cb61fc3518"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stecman/symfony-console-completion/zipball/a9502dab59405e275a9f264536c4e1cb61fc3518",
+                "reference": "a9502dab59405e275a9f264536c4e1cb61fc3518",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "symfony/console": "~2.3 || ~3.0 || ~4.0 || ~5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8.36 || ~5.7 || ~6.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.10.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Stecman\\Component\\Symfony\\Console\\BashCompletion\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stephen Holdaway",
+                    "email": "stephen@stecman.co.nz"
+                }
+            ],
+            "description": "Automatic BASH completion for Symfony Console Component based applications.",
+            "support": {
+                "issues": "https://github.com/stecman/symfony-console-completion/issues",
+                "source": "https://github.com/stecman/symfony-console-completion/tree/0.11.0"
+            },
+            "time": "2019-11-24T17:03:06+00:00"
         },
         {
             "name": "symfony-cmf/routing",
