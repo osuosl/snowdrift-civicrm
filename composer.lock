@@ -1092,16 +1092,16 @@
         },
         {
             "name": "civicrm/cv",
-            "version": "v0.3.45",
+            "version": "v0.3.46",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/cv.git",
-                "reference": "9d50c00350b913f0f1973760591df3d42aa97a64"
+                "reference": "cdb3d51826eecbe10a4dd03ffe0af36952b3e954"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/cv/zipball/9d50c00350b913f0f1973760591df3d42aa97a64",
-                "reference": "9d50c00350b913f0f1973760591df3d42aa97a64",
+                "url": "https://api.github.com/repos/civicrm/cv/zipball/cdb3d51826eecbe10a4dd03ffe0af36952b3e954",
+                "reference": "cdb3d51826eecbe10a4dd03ffe0af36952b3e954",
                 "shasum": ""
             },
             "require": {
@@ -1142,9 +1142,9 @@
             "description": "CLI tool for CiviCRM",
             "support": {
                 "issues": "https://github.com/civicrm/cv/issues",
-                "source": "https://github.com/civicrm/cv/tree/v0.3.45"
+                "source": "https://github.com/civicrm/cv/tree/v0.3.46"
             },
-            "time": "2023-07-13T11:54:43+00:00"
+            "time": "2023-07-25T03:03:46+00:00"
         },
         {
             "name": "composer/installers",
@@ -6384,16 +6384,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.11.19",
+            "version": "v0.11.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "1724ceff278daeeac5a006744633bacbb2dc4706"
+                "reference": "0fa27040553d1d280a67a4393194df5228afea5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/1724ceff278daeeac5a006744633bacbb2dc4706",
-                "reference": "1724ceff278daeeac5a006744633bacbb2dc4706",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/0fa27040553d1d280a67a4393194df5228afea5b",
+                "reference": "0fa27040553d1d280a67a4393194df5228afea5b",
                 "shasum": ""
             },
             "require": {
@@ -6454,9 +6454,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-                "source": "https://github.com/bobthecow/psysh/tree/v0.11.19"
+                "source": "https://github.com/bobthecow/psysh/tree/v0.11.20"
             },
-            "time": "2023-07-15T19:42:19+00:00"
+            "time": "2023-07-31T14:32:22+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -9513,16 +9513,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v5.4.25",
+            "version": "v5.4.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "82269f73c0f0f9859ab9b6900eebacbe54954ede"
+                "reference": "e706c99b4a6f4d9383b52b80dd8c74880501e314"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/82269f73c0f0f9859ab9b6900eebacbe54954ede",
-                "reference": "82269f73c0f0f9859ab9b6900eebacbe54954ede",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/e706c99b4a6f4d9383b52b80dd8c74880501e314",
+                "reference": "e706c99b4a6f4d9383b52b80dd8c74880501e314",
                 "shasum": ""
             },
             "require": {
@@ -9536,6 +9536,7 @@
             "require-dev": {
                 "ext-iconv": "*",
                 "symfony/console": "^4.4|^5.0|^6.0",
+                "symfony/http-kernel": "^4.4|^5.0|^6.0",
                 "symfony/process": "^4.4|^5.0|^6.0",
                 "symfony/uid": "^5.1|^6.0",
                 "twig/twig": "^2.13|^3.0.4"
@@ -9581,7 +9582,7 @@
                 "dump"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/v5.4.25"
+                "source": "https://github.com/symfony/var-dumper/tree/v5.4.26"
             },
             "funding": [
                 {
@@ -9597,7 +9598,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-06-20T20:56:26+00:00"
+            "time": "2023-07-13T07:32:46+00:00"
         },
         {
             "name": "symfony/yaml",
