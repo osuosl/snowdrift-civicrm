@@ -310,16 +310,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "5.63.1",
+            "version": "5.63.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "27dd9bcab5d0ece3f73e0c6d2a1c7d3966d03c58"
+                "reference": "609756834e7520dc43374aa1d30c47d09d080058"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/27dd9bcab5d0ece3f73e0c6d2a1c7d3966d03c58",
-                "reference": "27dd9bcab5d0ece3f73e0c6d2a1c7d3966d03c58",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/609756834e7520dc43374aa1d30c47d09d080058",
+                "reference": "609756834e7520dc43374aa1d30c47d09d080058",
                 "shasum": ""
             },
             "require": {
@@ -786,7 +786,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/5.63.1"
+                "source": "https://github.com/civicrm/civicrm-core/tree/5.63.2"
             },
             "funding": [
                 {
@@ -794,7 +794,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-07-07T18:55:56+00:00"
+            "time": "2023-07-26T07:09:48+00:00"
         },
         {
             "name": "civicrm/civicrm-cxn-rpc",
@@ -839,7 +839,7 @@
         },
         {
             "name": "civicrm/civicrm-drupal-8",
-            "version": "5.63.1",
+            "version": "5.63.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-drupal-8.git",
@@ -888,7 +888,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/5.63.1"
+                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/5.63.2"
             },
             "funding": [
                 {
@@ -9513,16 +9513,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v5.4.25",
+            "version": "v5.4.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "82269f73c0f0f9859ab9b6900eebacbe54954ede"
+                "reference": "e706c99b4a6f4d9383b52b80dd8c74880501e314"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/82269f73c0f0f9859ab9b6900eebacbe54954ede",
-                "reference": "82269f73c0f0f9859ab9b6900eebacbe54954ede",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/e706c99b4a6f4d9383b52b80dd8c74880501e314",
+                "reference": "e706c99b4a6f4d9383b52b80dd8c74880501e314",
                 "shasum": ""
             },
             "require": {
@@ -9536,6 +9536,7 @@
             "require-dev": {
                 "ext-iconv": "*",
                 "symfony/console": "^4.4|^5.0|^6.0",
+                "symfony/http-kernel": "^4.4|^5.0|^6.0",
                 "symfony/process": "^4.4|^5.0|^6.0",
                 "symfony/uid": "^5.1|^6.0",
                 "twig/twig": "^2.13|^3.0.4"
@@ -9581,7 +9582,7 @@
                 "dump"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/v5.4.25"
+                "source": "https://github.com/symfony/var-dumper/tree/v5.4.26"
             },
             "funding": [
                 {
@@ -9597,7 +9598,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-06-20T20:56:26+00:00"
+            "time": "2023-07-13T07:32:46+00:00"
         },
         {
             "name": "symfony/yaml",
