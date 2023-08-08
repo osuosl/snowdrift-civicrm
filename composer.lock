@@ -2714,7 +2714,7 @@
         },
         {
             "name": "drupal/core-project-message",
-            "version": "10.1.1",
+            "version": "10.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-project-message.git",
@@ -2749,7 +2749,7 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-project-message/tree/10.1.1"
+                "source": "https://github.com/drupal/core-project-message/tree/10.1.2"
             },
             "time": "2022-07-01T08:32:39+00:00"
         },
