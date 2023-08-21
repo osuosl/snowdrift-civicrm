@@ -310,16 +310,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "5.64.0",
+            "version": "5.64.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "16df6f2f20637a03b8b885256bb01450c26b4009"
+                "reference": "d44c33e641546d1b1cbac0e8230b7c780fca321d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/16df6f2f20637a03b8b885256bb01450c26b4009",
-                "reference": "16df6f2f20637a03b8b885256bb01450c26b4009",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/d44c33e641546d1b1cbac0e8230b7c780fca321d",
+                "reference": "d44c33e641546d1b1cbac0e8230b7c780fca321d",
                 "shasum": ""
             },
             "require": {
@@ -786,7 +786,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/5.64.0"
+                "source": "https://github.com/civicrm/civicrm-core/tree/5.64.1"
             },
             "funding": [
                 {
@@ -794,7 +794,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-08-03T02:21:58+00:00"
+            "time": "2023-08-18T09:10:59+00:00"
         },
         {
             "name": "civicrm/civicrm-cxn-rpc",
@@ -839,7 +839,7 @@
         },
         {
             "name": "civicrm/civicrm-drupal-8",
-            "version": "5.64.0",
+            "version": "5.64.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-drupal-8.git",
@@ -888,7 +888,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/5.64.0"
+                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/5.64.1"
             },
             "funding": [
                 {
@@ -5210,16 +5210,16 @@
         },
         {
             "name": "pear/mail",
-            "version": "v1.5.0",
+            "version": "v1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/Mail.git",
-                "reference": "c31b7635899a630a8ce681e5ced18cededcc15f3"
+                "reference": "1665e1b1dc0261a15cb3ee99ef38b4254aa7564a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/Mail/zipball/c31b7635899a630a8ce681e5ced18cededcc15f3",
-                "reference": "c31b7635899a630a8ce681e5ced18cededcc15f3",
+                "url": "https://api.github.com/repos/pear/Mail/zipball/1665e1b1dc0261a15cb3ee99ef38b4254aa7564a",
+                "reference": "1665e1b1dc0261a15cb3ee99ef38b4254aa7564a",
                 "shasum": ""
             },
             "require": {
@@ -5273,7 +5273,7 @@
                 "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Mail",
                 "source": "https://github.com/pear/Mail"
             },
-            "time": "2022-11-29T22:04:18+00:00"
+            "time": "2023-08-08T21:11:59+00:00"
         },
         {
             "name": "pear/mail_mime",
