@@ -310,16 +310,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "5.64.3",
+            "version": "5.65.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "445c6c9c1d4886ba64ea46805ee201f30cbf29ff"
+                "reference": "d887fb183cd2ec2e6d20d3ef575fc577e9fad453"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/445c6c9c1d4886ba64ea46805ee201f30cbf29ff",
-                "reference": "445c6c9c1d4886ba64ea46805ee201f30cbf29ff",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/d887fb183cd2ec2e6d20d3ef575fc577e9fad453",
+                "reference": "d887fb183cd2ec2e6d20d3ef575fc577e9fad453",
                 "shasum": ""
             },
             "require": {
@@ -614,7 +614,7 @@
                         "url": "https://github.com/civicrm/jqueryui/archive/1.13.2-civicrm.zip"
                     },
                     "jquery-validation": {
-                        "url": "https://github.com/jquery-validation/jquery-validation/archive/1.19.3.zip",
+                        "url": "https://github.com/jquery-validation/jquery-validation/archive/1.19.5.zip",
                         "ignore": [
                             ".*",
                             "node_modules",
@@ -697,7 +697,8 @@
                 },
                 "patches": {
                     "adrienrn/php-mimetyper": {
-                        "Update gitignore to ensure that sites that manage via git don't miss out on the important db.json file": "https://patch-diff.githubusercontent.com/raw/adrienrn/php-mimetyper/pull/15.patch"
+                        "Update gitignore to ensure that sites that manage via git don't miss out on the important db.json file": "https://patch-diff.githubusercontent.com/raw/adrienrn/php-mimetyper/pull/15.patch",
+                        "Apply patch to fix php8.2 deprecation notice on dynamic property $filename": "https://patch-diff.githubusercontent.com/raw/adrienrn/php-mimetyper/pull/17.patch"
                     },
                     "html2text/html2text": {
                         "Fix deprecation warning in php8.1 on html_entity_decode": "https://raw.githubusercontent.com/civicrm/civicrm-core/e758d20e9f613ca6c4cf652c23d2cd7e5d3af3ce/tools/scripts/composer/html2text_html2_text_php81_deprecation.patch"
@@ -786,7 +787,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/5.64.3"
+                "source": "https://github.com/civicrm/civicrm-core/tree/5.65.1"
             },
             "funding": [
                 {
@@ -794,7 +795,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-09-01T06:37:55+00:00"
+            "time": "2023-09-08T06:05:52+00:00"
         },
         {
             "name": "civicrm/civicrm-cxn-rpc",
@@ -10407,16 +10408,16 @@
         },
         {
             "name": "zetacomponents/mail",
-            "version": "1.9.4",
+            "version": "1.9.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zetacomponents/Mail.git",
-                "reference": "83ba646f36f753c0bbc8b2189c88d41ece326ea0"
+                "reference": "e106e5934a42cd1e37227fa50e79be648d60fa14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zetacomponents/Mail/zipball/83ba646f36f753c0bbc8b2189c88d41ece326ea0",
-                "reference": "83ba646f36f753c0bbc8b2189c88d41ece326ea0",
+                "url": "https://api.github.com/repos/zetacomponents/Mail/zipball/e106e5934a42cd1e37227fa50e79be648d60fa14",
+                "reference": "e106e5934a42cd1e37227fa50e79be648d60fa14",
                 "shasum": ""
             },
             "require": {
@@ -10481,9 +10482,9 @@
             "homepage": "https://github.com/zetacomponents",
             "support": {
                 "issues": "https://github.com/zetacomponents/Mail/issues",
-                "source": "https://github.com/zetacomponents/Mail/tree/1.9.4"
+                "source": "https://github.com/zetacomponents/Mail/tree/1.9.5"
             },
-            "time": "2022-09-14T10:13:21+00:00"
+            "time": "2023-09-06T09:15:46+00:00"
         }
     ],
     "packages-dev": [],
