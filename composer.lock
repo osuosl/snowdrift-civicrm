@@ -310,16 +310,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "5.65.2",
+            "version": "5.66.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "302a4461fa1f8bffbf265e1c1ecc9b1c5e8de5ba"
+                "reference": "5159715422a59556294d10cc056b5a335a6cf9ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/302a4461fa1f8bffbf265e1c1ecc9b1c5e8de5ba",
-                "reference": "302a4461fa1f8bffbf265e1c1ecc9b1c5e8de5ba",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/5159715422a59556294d10cc056b5a335a6cf9ba",
+                "reference": "5159715422a59556294d10cc056b5a335a6cf9ba",
                 "shasum": ""
             },
             "require": {
@@ -372,7 +372,7 @@
                 "symfony/service-contracts": "~2.2 || ~3.1",
                 "symfony/var-dumper": "~4.4 || ~5.1 || ~6.0",
                 "tecnickcom/tcpdf": "6.4.*",
-                "totten/ca-config": "~22.11",
+                "totten/ca-config": "~23.07",
                 "tplaner/when": "~3.1",
                 "typo3/phar-stream-wrapper": "^2 || ^3.0",
                 "xkerman/restricted-unserialize": "~1.1",
@@ -787,7 +787,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/5.65.2"
+                "source": "https://github.com/civicrm/civicrm-core/tree/5.66.0"
             },
             "funding": [
                 {
@@ -795,7 +795,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-09-19T22:41:11+00:00"
+            "time": "2023-10-05T04:13:15+00:00"
         },
         {
             "name": "civicrm/civicrm-cxn-rpc",
@@ -9514,16 +9514,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v5.4.28",
+            "version": "v5.4.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "684b36ff415e1381d4a943c3ca2502cd2debad73"
+                "reference": "6172e4ae3534d25ee9e07eb487c20be7760fcc65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/684b36ff415e1381d4a943c3ca2502cd2debad73",
-                "reference": "684b36ff415e1381d4a943c3ca2502cd2debad73",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/6172e4ae3534d25ee9e07eb487c20be7760fcc65",
+                "reference": "6172e4ae3534d25ee9e07eb487c20be7760fcc65",
                 "shasum": ""
             },
             "require": {
@@ -9583,7 +9583,7 @@
                 "dump"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/v5.4.28"
+                "source": "https://github.com/symfony/var-dumper/tree/v5.4.29"
             },
             "funding": [
                 {
@@ -9599,7 +9599,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-08-24T13:38:36+00:00"
+            "time": "2023-09-12T10:09:58+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -9783,16 +9783,16 @@
         },
         {
             "name": "totten/ca-config",
-            "version": "v22.11.0",
+            "version": "v23.07.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/totten/ca_config.git",
-                "reference": "8a78926b11f00e6a154098aeb2110df53b8a3c67"
+                "reference": "12571f07b994d555bf1a956e310f224da3ebbd8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/totten/ca_config/zipball/8a78926b11f00e6a154098aeb2110df53b8a3c67",
-                "reference": "8a78926b11f00e6a154098aeb2110df53b8a3c67",
+                "url": "https://api.github.com/repos/totten/ca_config/zipball/12571f07b994d555bf1a956e310f224da3ebbd8d",
+                "reference": "12571f07b994d555bf1a956e310f224da3ebbd8d",
                 "shasum": ""
             },
             "require": {
@@ -9818,9 +9818,9 @@
             "homepage": "https://github.com/totten/ca_config",
             "support": {
                 "issues": "https://github.com/totten/ca_config/issues",
-                "source": "https://github.com/totten/ca_config/tree/v22.11.0"
+                "source": "https://github.com/totten/ca_config/tree/v23.07.0"
             },
-            "time": "2022-11-06T02:39:19+00:00"
+            "time": "2023-07-14T07:20:50+00:00"
         },
         {
             "name": "totten/lurkerlite",
