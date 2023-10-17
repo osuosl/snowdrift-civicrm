@@ -22,9 +22,9 @@
         "civicrm/cv": "~0.3",
         "composer/installers": "~2.2",
         "drupal/civicrm_entity": "~3.0",
-        "drupal/core-composer-scaffold": "~10.1",
-        "drupal/core-project-message": "~10.1",
-        "drupal/core-recommended": "~10.1",
+        "drupal/core-composer-scaffold": "~10.0",
+        "drupal/core-project-message": "~10.0",
+        "drupal/core-recommended": "~9.2",
         "drush/drush": "~10"
     },
     "conflict": {
