@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "232fee537a14bc1c22b45c764785985d",
+    "content-hash": "8a9d8b5b6d87578bc5872068d8c70833",
     "packages": [
         {
             "name": "adrienrn/php-mimetyper",
@@ -277,16 +277,16 @@
         },
         {
             "name": "civicrm/civicrm-asset-plugin",
-            "version": "v1.1.3",
+            "version": "v1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-asset-plugin.git",
-                "reference": "f5a4193997ae4050df515c09e2741eff85b4de40"
+                "reference": "88c7dd0c93b6b5a4453a63e523706c941086763b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-asset-plugin/zipball/f5a4193997ae4050df515c09e2741eff85b4de40",
-                "reference": "f5a4193997ae4050df515c09e2741eff85b4de40",
+                "url": "https://api.github.com/repos/civicrm/civicrm-asset-plugin/zipball/88c7dd0c93b6b5a4453a63e523706c941086763b",
+                "reference": "88c7dd0c93b6b5a4453a63e523706c941086763b",
                 "shasum": ""
             },
             "require": {
@@ -311,22 +311,22 @@
             ],
             "description": "Publish assets from private CiviCRM folders to a public folder",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-asset-plugin/tree/v1.1.3"
+                "source": "https://github.com/civicrm/civicrm-asset-plugin/tree/v1.1.4"
             },
-            "time": "2023-03-01T06:44:25+00:00"
+            "time": "2023-11-07T02:08:39+00:00"
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "5.66.2",
+            "version": "5.67.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "8898c46a078f24e69cda6eb834943b97e8cca743"
+                "reference": "192b5c8ee388d2c084591fae00eb97be59cf2128"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/8898c46a078f24e69cda6eb834943b97e8cca743",
-                "reference": "8898c46a078f24e69cda6eb834943b97e8cca743",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/192b5c8ee388d2c084591fae00eb97be59cf2128",
+                "reference": "192b5c8ee388d2c084591fae00eb97be59cf2128",
                 "shasum": ""
             },
             "require": {
@@ -716,7 +716,7 @@
                         "Apply CiviCRM Customisations for the pear:db package": "https://raw.githubusercontent.com/civicrm/civicrm-core/2ad420c394/tools/scripts/composer/pear_db_civicrm_changes.patch"
                     },
                     "pear/log": {
-                        "Apply patch for php8.1": "https://patch-diff.githubusercontent.com/raw/pear/Log/pull/23.patch"
+                        "Apply patch for php8.1": "https://gist.githubusercontent.com/totten/d99d47dd9d19a5cb02858954a5577609/raw/0e5e4628a475219c2aec6af76e69894cdec42a55/pear-log-locale.patch"
                     },
                     "pear/mail": {
                         "Apply CiviCRM Customisations for CRM-1367 and CRM-5946": "https://raw.githubusercontent.com/civicrm/civicrm-core/36319938a5bf26c1e7e2110a26a65db6a5979268/tools/scripts/composer/patches/pear-mail.patch"
@@ -794,7 +794,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/5.66.2"
+                "source": "https://github.com/civicrm/civicrm-core/tree/5.67.0"
             },
             "funding": [
                 {
@@ -802,7 +802,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-10-30T00:57:15+00:00"
+            "time": "2023-11-01T23:07:14+00:00"
         },
         {
             "name": "civicrm/civicrm-cxn-rpc",
@@ -847,7 +847,7 @@
         },
         {
             "name": "civicrm/civicrm-drupal-8",
-            "version": "5.66.2",
+            "version": "5.67.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-drupal-8.git",
@@ -896,7 +896,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/5.66.2"
+                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/5.67.0"
             },
             "funding": [
                 {
@@ -908,25 +908,25 @@
         },
         {
             "name": "civicrm/civicrm-packages",
-            "version": "5.66.2",
+            "version": "5.67.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-packages.git",
-                "reference": "f7c5802fbfd87a2b032870c2563a2d7ae2bbff84"
+                "reference": "99aa86986b93caf0e00151ad62bc292bb2af7d3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-packages/zipball/f7c5802fbfd87a2b032870c2563a2d7ae2bbff84",
-                "reference": "f7c5802fbfd87a2b032870c2563a2d7ae2bbff84",
+                "url": "https://api.github.com/repos/civicrm/civicrm-packages/zipball/99aa86986b93caf0e00151ad62bc292bb2af7d3d",
+                "reference": "99aa86986b93caf0e00151ad62bc292bb2af7d3d",
                 "shasum": ""
             },
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
             "description": "Legacy third party dependencies for CiviCRM",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-packages/tree/5.66.2"
+                "source": "https://github.com/civicrm/civicrm-packages/tree/5.67.0"
             },
-            "time": "2023-09-07T00:26:30+00:00"
+            "time": "2023-09-29T00:40:07+00:00"
         },
         {
             "name": "civicrm/cli-tools",
@@ -2349,6 +2349,58 @@
             "time": "2023-02-07T12:51:48+00:00"
         },
         {
+            "name": "drupal/bartik",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/bartik.git",
+                "reference": "1.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/bartik-1.0.2.zip",
+                "reference": "1.0.2",
+                "shasum": "3b1acc601c21fae5584ebc4a3b8c9d7b8a48a431"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.2",
+                    "datestamp": "1660912287",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "bnjmnm",
+                    "homepage": "https://www.drupal.org/user/2369194"
+                },
+                {
+                    "name": "jensimmons",
+                    "homepage": "https://www.drupal.org/user/140882"
+                },
+                {
+                    "name": "lauriii",
+                    "homepage": "https://www.drupal.org/user/1078742"
+                }
+            ],
+            "description": "The Bartik theme from Drupal 8/9 moved to contrib.",
+            "homepage": "https://www.drupal.org/project/bartik",
+            "support": {
+                "source": "https://git.drupalcode.org/project/bartik"
+            }
+        },
+        {
             "name": "drupal/civicrm_entity",
             "version": "4.0.0-alpha6",
             "source": {
@@ -2423,16 +2475,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "10.1.5",
+            "version": "10.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "1272c35d547e844e7ebf3fe5513542291cda8cec"
+                "reference": "33695caf467e3e1e8c75d42215df57bee31be9ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/1272c35d547e844e7ebf3fe5513542291cda8cec",
-                "reference": "1272c35d547e844e7ebf3fe5513542291cda8cec",
+                "url": "https://api.github.com/repos/drupal/core/zipball/33695caf467e3e1e8c75d42215df57bee31be9ec",
+                "reference": "33695caf467e3e1e8c75d42215df57bee31be9ec",
                 "shasum": ""
             },
             "require": {
@@ -2577,13 +2629,13 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/10.1.5"
+                "source": "https://github.com/drupal/core/tree/10.1.6"
             },
-            "time": "2023-10-04T21:37:59+00:00"
+            "time": "2023-11-01T11:59:20+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "10.1.5",
+            "version": "10.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -2627,13 +2679,13 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-composer-scaffold/tree/10.1.5"
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/10.1.6"
             },
             "time": "2023-04-30T16:15:32+00:00"
         },
         {
             "name": "drupal/core-project-message",
-            "version": "10.1.5",
+            "version": "10.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-project-message.git",
@@ -2668,22 +2720,22 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-project-message/tree/10.1.5"
+                "source": "https://github.com/drupal/core-project-message/tree/10.1.6"
             },
             "time": "2022-07-01T08:32:39+00:00"
         },
         {
             "name": "drupal/core-recommended",
-            "version": "10.1.5",
+            "version": "10.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "2c5cf420ddb06f3e9b624d168b724ca1c7c326e2"
+                "reference": "13f5968854fe8bc02e659d8a4facc04a1a576ce5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/2c5cf420ddb06f3e9b624d168b724ca1c7c326e2",
-                "reference": "2c5cf420ddb06f3e9b624d168b724ca1c7c326e2",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/13f5968854fe8bc02e659d8a4facc04a1a576ce5",
+                "reference": "13f5968854fe8bc02e659d8a4facc04a1a576ce5",
                 "shasum": ""
             },
             "require": {
@@ -2692,7 +2744,7 @@
                 "doctrine/annotations": "~1.14.3",
                 "doctrine/deprecations": "~v1.1.1",
                 "doctrine/lexer": "~2.1.0",
-                "drupal/core": "10.1.5",
+                "drupal/core": "10.1.6",
                 "egulias/email-validator": "~4.0.1",
                 "guzzlehttp/guzzle": "~7.7.0",
                 "guzzlehttp/psr7": "~2.5.0",
@@ -2749,9 +2801,9 @@
             ],
             "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/10.1.5"
+                "source": "https://github.com/drupal/core-recommended/tree/10.1.6"
             },
-            "time": "2023-10-04T21:37:59+00:00"
+            "time": "2023-11-01T11:59:20+00:00"
         },
         {
             "name": "drush/drush",
@@ -4718,16 +4770,16 @@
         },
         {
             "name": "pear/mail",
-            "version": "v1.5.1",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/Mail.git",
-                "reference": "1665e1b1dc0261a15cb3ee99ef38b4254aa7564a"
+                "reference": "4fda3292ac6bf226d8841cfd8ee3cf4e28395c01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/Mail/zipball/1665e1b1dc0261a15cb3ee99ef38b4254aa7564a",
-                "reference": "1665e1b1dc0261a15cb3ee99ef38b4254aa7564a",
+                "url": "https://api.github.com/repos/pear/Mail/zipball/4fda3292ac6bf226d8841cfd8ee3cf4e28395c01",
+                "reference": "4fda3292ac6bf226d8841cfd8ee3cf4e28395c01",
                 "shasum": ""
             },
             "require": {
@@ -4781,7 +4833,7 @@
                 "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Mail",
                 "source": "https://github.com/pear/Mail"
             },
-            "time": "2023-08-08T21:11:59+00:00"
+            "time": "2023-11-01T21:31:59+00:00"
         },
         {
             "name": "pear/mail_mime",
