@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "00afca7e1321310932c17c6bd4204589",
+    "content-hash": "85141087402d20545f43acbb9aafbe4d",
     "packages": [
         {
             "name": "adrienrn/php-mimetyper",
@@ -926,16 +926,16 @@
         },
         {
             "name": "civicrm/cli-tools",
-            "version": "v2023.10.30.1698625846",
+            "version": "v2024.01.28.1706405644",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-cli-tools.git",
-                "reference": "bfc58ff78516c0012548f8041f6f3acb3bf9a86f"
+                "reference": "aca8798cbad5f1ab0948cf2795c30ce67343491f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-cli-tools/zipball/bfc58ff78516c0012548f8041f6f3acb3bf9a86f",
-                "reference": "bfc58ff78516c0012548f8041f6f3acb3bf9a86f",
+                "url": "https://api.github.com/repos/civicrm/civicrm-cli-tools/zipball/aca8798cbad5f1ab0948cf2795c30ce67343491f",
+                "reference": "aca8798cbad5f1ab0948cf2795c30ce67343491f",
                 "shasum": ""
             },
             "require": {
@@ -954,16 +954,16 @@
                         "type": "phar"
                     },
                     "civistrings.phar": {
-                        "version": "2022-02-16-75f490ca",
-                        "url": "https://download.civicrm.org/civistrings/civistrings.phar-2022-02-16-75f490ca"
+                        "version": "2022-08-30-c035da67",
+                        "url": "https://download.civicrm.org/civistrings/civistrings.phar-2022-08-30-c035da67"
                     },
                     "civix.phar": {
-                        "version": "23.08.2",
-                        "url": "https://download.civicrm.org/civix/civix-23.08.2.phar"
+                        "version": "23.12.2",
+                        "url": "https://download.civicrm.org/civix/civix-23.12.2.phar"
                     },
                     "coworker.phar": {
-                        "version": "0.5",
-                        "url": "https://download.civicrm.org/coworker/coworker-0.5.phar"
+                        "version": "0.6",
+                        "url": "https://download.civicrm.org/coworker/coworker-0.6.phar"
                     },
                     "cv.phar": {
                         "version": "0.3.48",
@@ -983,9 +983,9 @@
             ],
             "support": {
                 "issues": "https://github.com/civicrm/civicrm-cli-tools/issues",
-                "source": "https://github.com/civicrm/civicrm-cli-tools/tree/v2023.10.30.1698625846"
+                "source": "https://github.com/civicrm/civicrm-cli-tools/tree/v2024.01.28.1706405644"
             },
-            "time": "2023-10-30T00:31:18+00:00"
+            "time": "2024-01-28T01:34:09+00:00"
         },
         {
             "name": "civicrm/composer-compile-lib",
