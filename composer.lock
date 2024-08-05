@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "85141087402d20545f43acbb9aafbe4d",
+    "content-hash": "0bb76912b06100ab3b1c8d279fbbe0e1",
     "packages": [
         {
             "name": "adrienrn/php-mimetyper",
@@ -2686,7 +2686,7 @@
         },
         {
             "name": "drupal/core-project-message",
-            "version": "10.3.1",
+            "version": "11.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-project-message.git",
@@ -2721,7 +2721,7 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-project-message/tree/11.0.0-beta1"
+                "source": "https://github.com/drupal/core-project-message/tree/11.0.0"
             },
             "time": "2023-07-24T07:55:25+00:00"
         },

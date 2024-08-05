@@ -24,7 +24,7 @@
         "drupal/bartik": "^1.0",
         "drupal/civicrm_entity": "~4.0",
         "drupal/core-composer-scaffold": "~10.1",
-        "drupal/core-project-message": "~10.1",
+        "drupal/core-project-message": "~11.0",
         "drupal/core-recommended": "~10.1",
         "drupal/seven": "^1.0",
         "drush/drush": "~12"
