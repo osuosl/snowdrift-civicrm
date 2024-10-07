@@ -970,25 +970,25 @@
         },
         {
             "name": "civicrm/civicrm-packages",
-            "version": "5.77.1",
+            "version": "5.78.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-packages.git",
-                "reference": "6a29d244340bae8289f402e0da693528716c42f3"
+                "reference": "c5c96100e20742daf404b8b1d3037df18005e3ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-packages/zipball/6a29d244340bae8289f402e0da693528716c42f3",
-                "reference": "6a29d244340bae8289f402e0da693528716c42f3",
+                "url": "https://api.github.com/repos/civicrm/civicrm-packages/zipball/c5c96100e20742daf404b8b1d3037df18005e3ae",
+                "reference": "c5c96100e20742daf404b8b1d3037df18005e3ae",
                 "shasum": ""
             },
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
             "description": "Legacy third party dependencies for CiviCRM",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-packages/tree/5.77.1"
+                "source": "https://github.com/civicrm/civicrm-packages/tree/5.78.0"
             },
-            "time": "2024-08-06T19:47:33+00:00"
+            "time": "2024-08-22T22:47:49+00:00"
         },
         {
             "name": "civicrm/cli-tools",
