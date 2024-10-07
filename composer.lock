@@ -967,16 +967,16 @@
         },
         {
             "name": "civicrm/civicrm-drupal-8",
-            "version": "5.77.1",
+            "version": "5.78.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-drupal-8.git",
-                "reference": "0180d844437f24cb58e2a940875ce5908db216c8"
+                "reference": "0a15b4dee43c0235209044e6ec1fe89df161d988"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-drupal-8/zipball/0180d844437f24cb58e2a940875ce5908db216c8",
-                "reference": "0180d844437f24cb58e2a940875ce5908db216c8",
+                "url": "https://api.github.com/repos/civicrm/civicrm-drupal-8/zipball/0a15b4dee43c0235209044e6ec1fe89df161d988",
+                "reference": "0a15b4dee43c0235209044e6ec1fe89df161d988",
                 "shasum": ""
             },
             "require": {
@@ -1016,7 +1016,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/5.77.1"
+                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/5.78.0"
             },
             "funding": [
                 {
@@ -1024,7 +1024,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2024-06-28T18:07:24+00:00"
+            "time": "2024-08-21T12:57:26+00:00"
         },
         {
             "name": "civicrm/civicrm-packages",
