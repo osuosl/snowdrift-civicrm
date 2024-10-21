@@ -387,16 +387,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "5.78.1",
+            "version": "5.78.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "a13fc930c52bc6c137c003170b6700d9a0847d3b"
+                "reference": "97f4dc761f02a777b711fd5d26116f0f3613b0ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/a13fc930c52bc6c137c003170b6700d9a0847d3b",
-                "reference": "a13fc930c52bc6c137c003170b6700d9a0847d3b",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/97f4dc761f02a777b711fd5d26116f0f3613b0ad",
+                "reference": "97f4dc761f02a777b711fd5d26116f0f3613b0ad",
                 "shasum": ""
             },
             "require": {
@@ -913,7 +913,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/5.78.1"
+                "source": "https://github.com/civicrm/civicrm-core/tree/5.78.3"
             },
             "funding": [
                 {
@@ -921,7 +921,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2024-10-11T02:59:11+00:00"
+            "time": "2024-10-18T01:47:06+00:00"
         },
         {
             "name": "civicrm/civicrm-cxn-rpc",
@@ -3654,16 +3654,16 @@
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "2.0.3",
+            "version": "2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "6ea8dd08867a2a42619d65c3deb2c0fcbf81c8f8"
+                "reference": "f9c436286ab2892c7db7be8c8da4ef61ccf7b455"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/6ea8dd08867a2a42619d65c3deb2c0fcbf81c8f8",
-                "reference": "6ea8dd08867a2a42619d65c3deb2c0fcbf81c8f8",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/f9c436286ab2892c7db7be8c8da4ef61ccf7b455",
+                "reference": "f9c436286ab2892c7db7be8c8da4ef61ccf7b455",
                 "shasum": ""
             },
             "require": {
@@ -3717,7 +3717,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/promises/issues",
-                "source": "https://github.com/guzzle/promises/tree/2.0.3"
+                "source": "https://github.com/guzzle/promises/tree/2.0.4"
             },
             "funding": [
                 {
@@ -3733,7 +3733,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-07-18T10:29:17+00:00"
+            "time": "2024-10-17T10:06:22+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
