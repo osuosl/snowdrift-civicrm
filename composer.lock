@@ -994,7 +994,7 @@
         },
         {
             "name": "civicrm/civicrm-packages",
-            "version": "5.80.1",
+            "version": "5.81.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-packages.git",
@@ -1010,7 +1010,7 @@
             "notification-url": "https://packagist.org/downloads/",
             "description": "Legacy third party dependencies for CiviCRM",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-packages/tree/5.80.1"
+                "source": "https://github.com/civicrm/civicrm-packages/tree/5.81.0"
             },
             "time": "2024-09-19T13:11:56+00:00"
         },
@@ -10679,5 +10679,5 @@
     "platform-overrides": {
         "php": "8.1"
     },
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
