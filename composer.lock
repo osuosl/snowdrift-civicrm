@@ -387,16 +387,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "5.81.1",
+            "version": "5.82.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "a2f28b9a63ac65eea050cdfad3937093aa5cd4ea"
+                "reference": "f575dcc86c1e0e7e9d599f9f3e278dee2a83ba4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/a2f28b9a63ac65eea050cdfad3937093aa5cd4ea",
-                "reference": "a2f28b9a63ac65eea050cdfad3937093aa5cd4ea",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/f575dcc86c1e0e7e9d599f9f3e278dee2a83ba4b",
+                "reference": "f575dcc86c1e0e7e9d599f9f3e278dee2a83ba4b",
                 "shasum": ""
             },
             "require": {
@@ -628,7 +628,9 @@
                         "path": "bower_components/monaco-editor",
                         "ignore": [
                             "dev",
-                            "esm"
+                            "esm",
+                            "min-maps",
+                            "min/vs/language/typescript"
                         ]
                     },
                     "json-formatter": {
@@ -820,6 +822,7 @@
                     }
                 },
                 "compile-includes": [
+                    "composer.compile.json",
                     "ext/greenwich/composer.compile.json"
                 ],
                 "patches-comments": "For information about defining patches via composer.json, see https://docs.civicrm.org/dev/en/latest/core/dependencies/",
@@ -880,7 +883,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/5.81.1"
+                "source": "https://github.com/civicrm/civicrm-core/tree/5.82.0"
             },
             "funding": [
                 {
@@ -888,7 +891,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-01-22T07:01:34+00:00"
+            "time": "2025-02-06T10:36:17+00:00"
         },
         {
             "name": "civicrm/civicrm-cxn-rpc",
@@ -933,7 +936,7 @@
         },
         {
             "name": "civicrm/civicrm-drupal-8",
-            "version": "5.81.1",
+            "version": "5.82.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-drupal-8.git",
@@ -982,7 +985,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/5.81.1"
+                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/5.82.0"
             },
             "funding": [
                 {
@@ -5707,20 +5710,20 @@
         },
         {
             "name": "phpoffice/phpspreadsheet",
-            "version": "2.3.7",
+            "version": "2.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPOffice/PhpSpreadsheet.git",
-                "reference": "cf357183b1d17a3862e8e4b9b056a556654dcae6"
+                "reference": "7a700683743bf1c4a21837c84b266916f1aa7d25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPOffice/PhpSpreadsheet/zipball/cf357183b1d17a3862e8e4b9b056a556654dcae6",
-                "reference": "cf357183b1d17a3862e8e4b9b056a556654dcae6",
+                "url": "https://api.github.com/repos/PHPOffice/PhpSpreadsheet/zipball/7a700683743bf1c4a21837c84b266916f1aa7d25",
+                "reference": "7a700683743bf1c4a21837c84b266916f1aa7d25",
                 "shasum": ""
             },
             "require": {
-                "composer/pcre": "^3.2",
+                "composer/pcre": "^1 || ^2 || ^3",
                 "ext-ctype": "*",
                 "ext-dom": "*",
                 "ext-fileinfo": "*",
@@ -5806,9 +5809,9 @@
             ],
             "support": {
                 "issues": "https://github.com/PHPOffice/PhpSpreadsheet/issues",
-                "source": "https://github.com/PHPOffice/PhpSpreadsheet/tree/2.3.7"
+                "source": "https://github.com/PHPOffice/PhpSpreadsheet/tree/2.3.8"
             },
-            "time": "2025-01-26T04:53:06+00:00"
+            "time": "2025-02-08T03:01:45+00:00"
         },
         {
             "name": "phpoffice/phpword",
