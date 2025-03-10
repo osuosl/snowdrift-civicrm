@@ -16,7 +16,7 @@
     ],
     "require": {
         "civicrm/civicrm-asset-plugin": "~1.1",
-        "civicrm/civicrm-core": "~5.66",
+        "civicrm/civicrm-core": "~6.0",
         "civicrm/civicrm-drupal-8": "~5.66",
         "civicrm/civicrm-packages": "~6.0",
         "civicrm/cli-tools": "v2025.02.26.1740556268",
