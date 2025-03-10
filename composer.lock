@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "054363cb6a27134a42abf3b81e67d820",
+    "content-hash": "d9fca5720172907fc67e6d8a0e6a8864",
     "packages": [
         {
             "name": "adrienrn/php-mimetyper",
@@ -997,25 +997,25 @@
         },
         {
             "name": "civicrm/civicrm-packages",
-            "version": "5.82.0",
+            "version": "6.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-packages.git",
-                "reference": "f7c13ddb88586be9997b797ba1d5cd6787a2b638"
+                "reference": "97ef1efd068c025a51ec5bc77806464e84935d40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-packages/zipball/f7c13ddb88586be9997b797ba1d5cd6787a2b638",
-                "reference": "f7c13ddb88586be9997b797ba1d5cd6787a2b638",
+                "url": "https://api.github.com/repos/civicrm/civicrm-packages/zipball/97ef1efd068c025a51ec5bc77806464e84935d40",
+                "reference": "97ef1efd068c025a51ec5bc77806464e84935d40",
                 "shasum": ""
             },
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
             "description": "Legacy third party dependencies for CiviCRM",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-packages/tree/5.82.0"
+                "source": "https://github.com/civicrm/civicrm-packages/tree/6.0.0"
             },
-            "time": "2025-02-05T00:08:50+00:00"
+            "time": "2025-02-13T15:24:30+00:00"
         },
         {
             "name": "civicrm/cli-tools",
