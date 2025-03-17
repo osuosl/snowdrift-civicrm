@@ -387,16 +387,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "6.0.0",
+            "version": "6.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "33a365c227dd6163f732dade0377055cdda1f42e"
+                "reference": "819c6f96c0fdf533e48903f19a9d32e85930e48a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/33a365c227dd6163f732dade0377055cdda1f42e",
-                "reference": "33a365c227dd6163f732dade0377055cdda1f42e",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/819c6f96c0fdf533e48903f19a9d32e85930e48a",
+                "reference": "819c6f96c0fdf533e48903f19a9d32e85930e48a",
                 "shasum": ""
             },
             "require": {
@@ -886,7 +886,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/6.0.0"
+                "source": "https://github.com/civicrm/civicrm-core/tree/6.0.1"
             },
             "funding": [
                 {
@@ -894,7 +894,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-03-06T07:06:29+00:00"
+            "time": "2025-03-14T00:07:24+00:00"
         },
         {
             "name": "civicrm/civicrm-drupal-8",
@@ -10655,13 +10655,13 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {},
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": {},
-    "platform-dev": {},
+    "platform": [],
+    "platform-dev": [],
     "platform-overrides": {
         "php": "8.1"
     },
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
