@@ -387,16 +387,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "6.1.0",
+            "version": "6.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "4850aba0757db1a4d95e9bbd5b1cd3a409cb6696"
+                "reference": "8e40ab0704fe99ce1f68539659b92a6c02f3a4ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/4850aba0757db1a4d95e9bbd5b1cd3a409cb6696",
-                "reference": "4850aba0757db1a4d95e9bbd5b1cd3a409cb6696",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/8e40ab0704fe99ce1f68539659b92a6c02f3a4ea",
+                "reference": "8e40ab0704fe99ce1f68539659b92a6c02f3a4ea",
                 "shasum": ""
             },
             "require": {
@@ -892,7 +892,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/6.1.0"
+                "source": "https://github.com/civicrm/civicrm-core/tree/6.1.1"
             },
             "funding": [
                 {
@@ -900,11 +900,11 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-04-04T04:07:55+00:00"
+            "time": "2025-04-17T07:53:40+00:00"
         },
         {
             "name": "civicrm/civicrm-drupal-8",
-            "version": "6.1.0",
+            "version": "6.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-drupal-8.git",
@@ -953,7 +953,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/6.1.0"
+                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/6.1.1"
             },
             "funding": [
                 {
@@ -10067,16 +10067,16 @@
         },
         {
             "name": "tecnickcom/tcpdf",
-            "version": "6.9.1",
+            "version": "6.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tecnickcom/TCPDF.git",
-                "reference": "ed27e28a4c478f7f4015b5e7e7b1912af9e85f2b"
+                "reference": "d0e8dd17f8a1df3c97b94b9af8356e88e811ed59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/ed27e28a4c478f7f4015b5e7e7b1912af9e85f2b",
-                "reference": "ed27e28a4c478f7f4015b5e7e7b1912af9e85f2b",
+                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/d0e8dd17f8a1df3c97b94b9af8356e88e811ed59",
+                "reference": "d0e8dd17f8a1df3c97b94b9af8356e88e811ed59",
                 "shasum": ""
             },
             "require": {
@@ -10126,7 +10126,7 @@
             ],
             "support": {
                 "issues": "https://github.com/tecnickcom/TCPDF/issues",
-                "source": "https://github.com/tecnickcom/TCPDF/tree/6.9.1"
+                "source": "https://github.com/tecnickcom/TCPDF/tree/6.9.3"
             },
             "funding": [
                 {
@@ -10134,7 +10134,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-04-03T06:38:07+00:00"
+            "time": "2025-04-20T15:52:50+00:00"
         },
         {
             "name": "totten/ca-config",
