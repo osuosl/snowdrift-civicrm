@@ -19,7 +19,7 @@
         "civicrm/civicrm-core": "~6.0",
         "civicrm/civicrm-drupal-8": "~6.0",
         "civicrm/civicrm-packages": "~6.0",
-        "civicrm/cli-tools": "v2025.04.17.1744869264",
+        "civicrm/cli-tools": "v2025.05.05.1746430030",
         "composer/installers": "~2.2",
         "drupal/bartik": "^1.0",
         "drupal/civicrm_entity": "~4.0",
