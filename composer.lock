@@ -387,16 +387,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "6.3.2",
+            "version": "6.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "6bdf4c122348e57b708ff31d76fc45dad21ae1f8"
+                "reference": "c65014fa7b554f958c76529bd0c43857e170d73d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/6bdf4c122348e57b708ff31d76fc45dad21ae1f8",
-                "reference": "6bdf4c122348e57b708ff31d76fc45dad21ae1f8",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/c65014fa7b554f958c76529bd0c43857e170d73d",
+                "reference": "c65014fa7b554f958c76529bd0c43857e170d73d",
                 "shasum": ""
             },
             "require": {
@@ -409,11 +409,15 @@
                 "cweagans/composer-patches": "~1.0",
                 "dmore/chrome-mink-driver": "^2.9",
                 "dompdf/dompdf": "~2.0.4|| ~3.0",
+                "ext-bcmath": "*",
+                "ext-curl": "*",
                 "ext-fileinfo": "*",
                 "ext-intl": "*",
                 "ext-json": "*",
                 "ext-mbstring": "*",
                 "ext-mysqli": "*",
+                "ext-xml": "*",
+                "ext-zip": "*",
                 "ezyang/htmlpurifier": "^4.13",
                 "firebase/php-jwt": ">=3 <7",
                 "guzzlehttp/guzzle": "^6.3 || ^7.3",
@@ -862,9 +866,6 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "include-path": [
-                "vendor/tecnickcom"
-            ],
             "license": [
                 "AGPL-3.0-or-later"
             ],
@@ -892,7 +893,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/6.3.2"
+                "source": "https://github.com/civicrm/civicrm-core/tree/6.4.0"
             },
             "funding": [
                 {
@@ -900,7 +901,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-07-02T07:04:23+00:00"
+            "time": "2025-07-03T08:54:35+00:00"
         },
         {
             "name": "civicrm/civicrm-drupal-8",
@@ -6938,16 +6939,16 @@
         },
         {
             "name": "sabberworm/php-css-parser",
-            "version": "v8.8.0",
+            "version": "v8.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/MyIntervals/PHP-CSS-Parser.git",
-                "reference": "3de493bdddfd1f051249af725c7e0d2c38fed740"
+                "reference": "d8e916507b88e389e26d4ab03c904a082aa66bb9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MyIntervals/PHP-CSS-Parser/zipball/3de493bdddfd1f051249af725c7e0d2c38fed740",
-                "reference": "3de493bdddfd1f051249af725c7e0d2c38fed740",
+                "url": "https://api.github.com/repos/MyIntervals/PHP-CSS-Parser/zipball/d8e916507b88e389e26d4ab03c904a082aa66bb9",
+                "reference": "d8e916507b88e389e26d4ab03c904a082aa66bb9",
                 "shasum": ""
             },
             "require": {
@@ -6955,7 +6956,8 @@
                 "php": "^5.6.20 || ^7.0.0 || ~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "5.7.27 || 6.5.14 || 7.5.20 || 8.5.41"
+                "phpunit/phpunit": "5.7.27 || 6.5.14 || 7.5.20 || 8.5.41",
+                "rawr/cross-data-providers": "^2.0.0"
             },
             "suggest": {
                 "ext-mbstring": "for parsing UTF-8 CSS"
@@ -6997,9 +6999,9 @@
             ],
             "support": {
                 "issues": "https://github.com/MyIntervals/PHP-CSS-Parser/issues",
-                "source": "https://github.com/MyIntervals/PHP-CSS-Parser/tree/v8.8.0"
+                "source": "https://github.com/MyIntervals/PHP-CSS-Parser/tree/v8.9.0"
             },
-            "time": "2025-03-23T17:59:05+00:00"
+            "time": "2025-07-11T13:20:48+00:00"
         },
         {
             "name": "scssphp/scssphp",

@@ -6,6 +6,6 @@ RUN dnf module reset -y php
 RUN dnf module install -y php:remi-8.1
 RUN dnf install -y php-cli php-gd php-intl php-json php-mbstring php-mysqlnd \
     php-opcache php-pdo php-pecl-apcu php-pecl-memcached php-pecl-zip \
-    php-devel wget unzip git patch composer
+    php-devel php-bcmath wget unzip git patch composer
 
 RUN sed -i -e 's/memory_limit.*/memory_limit = -1/' /etc/php.ini
