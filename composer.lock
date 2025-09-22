@@ -387,16 +387,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "6.6.1",
+            "version": "6.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "e8b015fe86d535fb082f41aca0fa9e4e90eddc1b"
+                "reference": "3a19f168329cc9711af417e9f633c93e55da8bdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/e8b015fe86d535fb082f41aca0fa9e4e90eddc1b",
-                "reference": "e8b015fe86d535fb082f41aca0fa9e4e90eddc1b",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/3a19f168329cc9711af417e9f633c93e55da8bdf",
+                "reference": "3a19f168329cc9711af417e9f633c93e55da8bdf",
                 "shasum": ""
             },
             "require": {
@@ -893,7 +893,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/6.6.1"
+                "source": "https://github.com/civicrm/civicrm-core/tree/6.6.2"
             },
             "funding": [
                 {
@@ -901,11 +901,11 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-09-07T17:57:52+00:00"
+            "time": "2025-09-16T19:23:22+00:00"
         },
         {
             "name": "civicrm/civicrm-drupal-8",
-            "version": "6.6.1",
+            "version": "6.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-drupal-8.git",
@@ -954,7 +954,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/6.6.1"
+                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/6.6.2"
             },
             "funding": [
                 {
@@ -2513,16 +2513,16 @@
         },
         {
             "name": "dompdf/dompdf",
-            "version": "v3.1.0",
+            "version": "v3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dompdf/dompdf.git",
-                "reference": "a51bd7a063a65499446919286fb18b518177155a"
+                "reference": "794ec856134a73d2a69a474c5d4faa47e1e645b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dompdf/dompdf/zipball/a51bd7a063a65499446919286fb18b518177155a",
-                "reference": "a51bd7a063a65499446919286fb18b518177155a",
+                "url": "https://api.github.com/repos/dompdf/dompdf/zipball/794ec856134a73d2a69a474c5d4faa47e1e645b1",
+                "reference": "794ec856134a73d2a69a474c5d4faa47e1e645b1",
                 "shasum": ""
             },
             "require": {
@@ -2571,9 +2571,9 @@
             "homepage": "https://github.com/dompdf/dompdf",
             "support": {
                 "issues": "https://github.com/dompdf/dompdf/issues",
-                "source": "https://github.com/dompdf/dompdf/tree/v3.1.0"
+                "source": "https://github.com/dompdf/dompdf/tree/v3.1.1"
             },
-            "time": "2025-01-15T14:09:04+00:00"
+            "time": "2025-09-20T17:30:31+00:00"
         },
         {
             "name": "dompdf/php-font-lib",
