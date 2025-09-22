@@ -905,7 +905,7 @@
         },
         {
             "name": "civicrm/civicrm-drupal-8",
-            "version": "6.6.1",
+            "version": "6.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-drupal-8.git",
@@ -954,7 +954,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/6.6.1"
+                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/6.6.2"
             },
             "funding": [
                 {
