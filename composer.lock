@@ -387,16 +387,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "6.6.3",
+            "version": "6.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "bc3f9340c75a3be4eae6398fed5854c01378da14"
+                "reference": "d11cbdf3b09d5824e27c9a2f19b2a144cc70e835"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/bc3f9340c75a3be4eae6398fed5854c01378da14",
-                "reference": "bc3f9340c75a3be4eae6398fed5854c01378da14",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/d11cbdf3b09d5824e27c9a2f19b2a144cc70e835",
+                "reference": "d11cbdf3b09d5824e27c9a2f19b2a144cc70e835",
                 "shasum": ""
             },
             "require": {
@@ -893,7 +893,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/6.6.3"
+                "source": "https://github.com/civicrm/civicrm-core/tree/6.7.0"
             },
             "funding": [
                 {
@@ -901,11 +901,11 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-09-25T00:16:09+00:00"
+            "time": "2025-10-02T23:17:22+00:00"
         },
         {
             "name": "civicrm/civicrm-drupal-8",
-            "version": "6.6.3",
+            "version": "6.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-drupal-8.git",
@@ -954,7 +954,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/6.6.3"
+                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/6.7.0"
             },
             "funding": [
                 {
@@ -2261,16 +2261,16 @@
         },
         {
             "name": "dmore/chrome-mink-driver",
-            "version": "2.9.3",
+            "version": "2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/behat-chrome/chrome-mink-driver.git",
-                "reference": "4dc18d3b4668e749ab7bef5a6796c13711c93e61"
+                "reference": "197c3a2e69a0d9f2572ca4461e748d0c771db4ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/behat-chrome%2Fchrome-mink-driver/repository/archive.zip?sha=4dc18d3b4668e749ab7bef5a6796c13711c93e61",
-                "reference": "4dc18d3b4668e749ab7bef5a6796c13711c93e61",
+                "url": "https://gitlab.com/api/v4/projects/behat-chrome%2Fchrome-mink-driver/repository/archive.zip?sha=197c3a2e69a0d9f2572ca4461e748d0c771db4ec",
+                "reference": "197c3a2e69a0d9f2572ca4461e748d0c771db4ec",
                 "shasum": ""
             },
             "require": {
@@ -2278,6 +2278,7 @@
                 "ext-curl": "*",
                 "ext-json": "*",
                 "ext-mbstring": "*",
+                "php": "^8.1",
                 "phrity/websocket": "^1.7.0"
             },
             "require-dev": {
@@ -2305,9 +2306,9 @@
             "homepage": "https://gitlab.com/behat-chrome/chrome-mink-driver",
             "support": {
                 "issues": "https://gitlab.com/behat-chrome/chrome-mink-driver/-/issues",
-                "source": "https://gitlab.com/behat-chrome/chrome-mink-driver/-/tree/2.9.3"
+                "source": "https://gitlab.com/behat-chrome/chrome-mink-driver/-/tree/2.10.0"
             },
-            "time": "2024-05-17T12:26:55+00:00"
+            "time": "2025-10-03T23:14:32+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -5950,16 +5951,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.48",
+            "version": "2.0.49",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "eaa7be704b8b93a6913b69eb7f645a59d7731b61"
+                "reference": "4de468f48f0ab9709fc875aca0762abdc81cfa9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/eaa7be704b8b93a6913b69eb7f645a59d7731b61",
-                "reference": "eaa7be704b8b93a6913b69eb7f645a59d7731b61",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/4de468f48f0ab9709fc875aca0762abdc81cfa9b",
+                "reference": "4de468f48f0ab9709fc875aca0762abdc81cfa9b",
                 "shasum": ""
             },
             "require": {
@@ -6040,7 +6041,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/2.0.48"
+                "source": "https://github.com/phpseclib/phpseclib/tree/2.0.49"
             },
             "funding": [
                 {
@@ -6056,7 +6057,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-12-14T21:03:54+00:00"
+            "time": "2025-10-06T01:05:33+00:00"
         },
         {
             "name": "phrity/net-stream",
