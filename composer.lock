@@ -905,7 +905,7 @@
         },
         {
             "name": "civicrm/civicrm-drupal-8",
-            "version": "6.7.0",
+            "version": "6.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-drupal-8.git",
@@ -954,7 +954,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/6.7.0"
+                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/6.7.1"
             },
             "funding": [
                 {
@@ -2726,17 +2726,17 @@
         },
         {
             "name": "drupal/civicrm_entity",
-            "version": "4.0.1",
+            "version": "4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/civicrm_entity.git",
-                "reference": "4.0.1"
+                "reference": "4.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/civicrm_entity-4.0.1.zip",
-                "reference": "4.0.1",
-                "shasum": "b2ede81802d34c826031375e3797ca62cef40f4a"
+                "url": "https://ftp.drupal.org/files/projects/civicrm_entity-4.0.2.zip",
+                "reference": "4.0.2",
+                "shasum": "9e6597e3df19e928134e225238259d5498c27043"
             },
             "require": {
                 "civicrm/civicrm-drupal-8": "*",
@@ -2748,8 +2748,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "4.0.1",
-                    "datestamp": "1757438348",
+                    "version": "4.0.2",
+                    "datestamp": "1760106657",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
