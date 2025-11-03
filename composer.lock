@@ -347,20 +347,20 @@
         },
         {
             "name": "civicrm/civicrm-asset-plugin",
-            "version": "v1.1.4",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-asset-plugin.git",
-                "reference": "88c7dd0c93b6b5a4453a63e523706c941086763b"
+                "reference": "a24237e4886a55cd6be6d5c2a9e5fb932f83a109"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-asset-plugin/zipball/88c7dd0c93b6b5a4453a63e523706c941086763b",
-                "reference": "88c7dd0c93b6b5a4453a63e523706c941086763b",
+                "url": "https://api.github.com/repos/civicrm/civicrm-asset-plugin/zipball/a24237e4886a55cd6be6d5c2a9e5fb932f83a109",
+                "reference": "a24237e4886a55cd6be6d5c2a9e5fb932f83a109",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.1 || ^2.0"
+                "composer-plugin-api": "^2.3"
             },
             "require-dev": {
                 "symfony/process": "^2.7 || ^3.0 || ^4.0",
@@ -381,9 +381,9 @@
             ],
             "description": "Publish assets from private CiviCRM folders to a public folder",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-asset-plugin/tree/v1.1.4"
+                "source": "https://github.com/civicrm/civicrm-asset-plugin/tree/v1.2.0"
             },
-            "time": "2023-11-07T02:08:39+00:00"
+            "time": "2025-11-01T16:17:37+00:00"
         },
         {
             "name": "civicrm/civicrm-core",
