@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "288cef1ddc6956dde88a4393ca7331cf",
+    "content-hash": "94f543f18657cbd3813f13927c094f6d",
     "packages": [
         {
             "name": "adrienrn/php-mimetyper",
@@ -988,16 +988,16 @@
         },
         {
             "name": "civicrm/cli-tools",
-            "version": "v2025.10.08.1759891588",
+            "version": "v2025.10.31.1761954514",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-cli-tools.git",
-                "reference": "e0d23b3fb4c4c42f800a8ab4e5378171dcbc1a11"
+                "reference": "cfe8ea1ec207c290a1af34149031c771f3a837af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-cli-tools/zipball/e0d23b3fb4c4c42f800a8ab4e5378171dcbc1a11",
-                "reference": "e0d23b3fb4c4c42f800a8ab4e5378171dcbc1a11",
+                "url": "https://api.github.com/repos/civicrm/civicrm-cli-tools/zipball/cfe8ea1ec207c290a1af34149031c771f3a837af",
+                "reference": "cfe8ea1ec207c290a1af34149031c771f3a837af",
                 "shasum": ""
             },
             "require": {
@@ -1021,8 +1021,8 @@
                         "version": "0.3.66"
                     },
                     "civix.phar": {
-                        "url": "https://download.civicrm.org/civix/civix-25.10.1.phar",
-                        "version": "25.10.1"
+                        "url": "https://download.civicrm.org/civix/civix-25.10.2.phar",
+                        "version": "25.10.2"
                     },
                     "coworker.phar": {
                         "url": "https://download.civicrm.org/coworker/coworker-0.8.phar",
@@ -1046,9 +1046,9 @@
             ],
             "support": {
                 "issues": "https://github.com/civicrm/civicrm-cli-tools/issues",
-                "source": "https://github.com/civicrm/civicrm-cli-tools/tree/v2025.10.08.1759891588"
+                "source": "https://github.com/civicrm/civicrm-cli-tools/tree/v2025.10.31.1761954514"
             },
-            "time": "2025-10-08T02:46:30+00:00"
+            "time": "2025-10-31T23:48:41+00:00"
         },
         {
             "name": "civicrm/composer-compile-lib",
