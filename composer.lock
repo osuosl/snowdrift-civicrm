@@ -905,7 +905,7 @@
         },
         {
             "name": "civicrm/civicrm-drupal-8",
-            "version": "6.7.2",
+            "version": "6.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-drupal-8.git",
@@ -954,7 +954,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/6.7.2"
+                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/6.8.0"
             },
             "funding": [
                 {
@@ -2727,17 +2727,17 @@
         },
         {
             "name": "drupal/civicrm_entity",
-            "version": "4.0.2",
+            "version": "4.0.3",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/civicrm_entity.git",
-                "reference": "4.0.2"
+                "reference": "4.0.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/civicrm_entity-4.0.2.zip",
-                "reference": "4.0.2",
-                "shasum": "9e6597e3df19e928134e225238259d5498c27043"
+                "url": "https://ftp.drupal.org/files/projects/civicrm_entity-4.0.3.zip",
+                "reference": "4.0.3",
+                "shasum": "7ba3ecff6f7b05bd29c130062a5583e7d58b72b2"
             },
             "require": {
                 "civicrm/civicrm-drupal-8": "*",
@@ -2749,8 +2749,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "4.0.2",
-                    "datestamp": "1760106657",
+                    "version": "4.0.3",
+                    "datestamp": "1762875229",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2964,7 +2964,7 @@
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "10.5.5",
+            "version": "10.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -3008,7 +3008,7 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-composer-scaffold/tree/10.5.5"
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/10.5.6"
             },
             "time": "2024-08-22T14:31:30+00:00"
         },
@@ -8065,16 +8065,16 @@
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v6.4.28",
+            "version": "v6.4.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "bbccadab358e236fcf13cc02a01fc0115d09d787"
+                "reference": "18818b48f54c1d2bd92b41d82d8345af50b15658"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/bbccadab358e236fcf13cc02a01fc0115d09d787",
-                "reference": "bbccadab358e236fcf13cc02a01fc0115d09d787",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/18818b48f54c1d2bd92b41d82d8345af50b15658",
+                "reference": "18818b48f54c1d2bd92b41d82d8345af50b15658",
                 "shasum": ""
             },
             "require": {
@@ -8159,7 +8159,7 @@
             "description": "Provides a structured process for converting a Request into a Response",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-kernel/tree/v6.4.28"
+                "source": "https://github.com/symfony/http-kernel/tree/v6.4.29"
             },
             "funding": [
                 {
@@ -8179,7 +8179,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-11-06T20:52:25+00:00"
+            "time": "2025-11-12T11:22:59+00:00"
         },
         {
             "name": "symfony/mailer",
@@ -9828,16 +9828,16 @@
         },
         {
             "name": "symfony/validator",
-            "version": "v6.4.27",
+            "version": "v6.4.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/validator.git",
-                "reference": "60dd71e219cd3d76fde906eb6b6c1271db628f5b"
+                "reference": "99df8a769e64e399f510166141ea74f450e8dd1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/validator/zipball/60dd71e219cd3d76fde906eb6b6c1271db628f5b",
-                "reference": "60dd71e219cd3d76fde906eb6b6c1271db628f5b",
+                "url": "https://api.github.com/repos/symfony/validator/zipball/99df8a769e64e399f510166141ea74f450e8dd1d",
+                "reference": "99df8a769e64e399f510166141ea74f450e8dd1d",
                 "shasum": ""
             },
             "require": {
@@ -9905,7 +9905,7 @@
             "description": "Provides tools to validate values",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/validator/tree/v6.4.27"
+                "source": "https://github.com/symfony/validator/tree/v6.4.29"
             },
             "funding": [
                 {
@@ -9925,7 +9925,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-10-23T19:49:35+00:00"
+            "time": "2025-11-06T20:26:06+00:00"
         },
         {
             "name": "symfony/var-dumper",
@@ -10691,16 +10691,16 @@
         },
         {
             "name": "zetacomponents/base",
-            "version": "1.9.4",
+            "version": "1.9.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zetacomponents/Base.git",
-                "reference": "b6ae5f6177f6e51c5fc3514800e1c3fb076ec4be"
+                "reference": "f91dd2f04280741de7125350a8c47b6673fc8537"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zetacomponents/Base/zipball/b6ae5f6177f6e51c5fc3514800e1c3fb076ec4be",
-                "reference": "b6ae5f6177f6e51c5fc3514800e1c3fb076ec4be",
+                "url": "https://api.github.com/repos/zetacomponents/Base/zipball/f91dd2f04280741de7125350a8c47b6673fc8537",
+                "reference": "f91dd2f04280741de7125350a8c47b6673fc8537",
                 "shasum": ""
             },
             "require-dev": {
@@ -10755,9 +10755,9 @@
             "homepage": "https://github.com/zetacomponents",
             "support": {
                 "issues": "https://github.com/zetacomponents/Base/issues",
-                "source": "https://github.com/zetacomponents/Base/tree/1.9.4"
+                "source": "https://github.com/zetacomponents/Base/tree/1.9.5"
             },
-            "time": "2022-11-30T16:16:25+00:00"
+            "time": "2025-11-12T16:37:32+00:00"
         },
         {
             "name": "zetacomponents/mail",
