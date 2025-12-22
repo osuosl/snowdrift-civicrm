@@ -388,16 +388,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "6.9.0",
+            "version": "6.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "27c128701b25a69c5294e81a8ba2a70e7e6608c7"
+                "reference": "f3af43ebed87dacf13de28ba94fa94449da874bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/27c128701b25a69c5294e81a8ba2a70e7e6608c7",
-                "reference": "27c128701b25a69c5294e81a8ba2a70e7e6608c7",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/f3af43ebed87dacf13de28ba94fa94449da874bc",
+                "reference": "f3af43ebed87dacf13de28ba94fa94449da874bc",
                 "shasum": ""
             },
             "require": {
@@ -897,7 +897,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/6.9.0"
+                "source": "https://github.com/civicrm/civicrm-core/tree/6.9.1"
             },
             "funding": [
                 {
@@ -905,11 +905,11 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-12-04T06:35:05+00:00"
+            "time": "2025-12-18T01:22:34+00:00"
         },
         {
             "name": "civicrm/civicrm-drupal-8",
-            "version": "6.9.0",
+            "version": "6.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-drupal-8.git",
@@ -958,7 +958,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/6.9.0"
+                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/6.9.1"
             },
             "funding": [
                 {
@@ -4335,16 +4335,16 @@
         },
         {
             "name": "league/oauth2-google",
-            "version": "4.0.1",
+            "version": "4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/oauth2-google.git",
-                "reference": "1b01ba18ba31b29e88771e3e0979e5c91d4afe76"
+                "reference": "8b9bb43740ac6d994aca881a35f7bacbe98c0ffb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/oauth2-google/zipball/1b01ba18ba31b29e88771e3e0979e5c91d4afe76",
-                "reference": "1b01ba18ba31b29e88771e3e0979e5c91d4afe76",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-google/zipball/8b9bb43740ac6d994aca881a35f7bacbe98c0ffb",
+                "reference": "8b9bb43740ac6d994aca881a35f7bacbe98c0ffb",
                 "shasum": ""
             },
             "require": {
@@ -4384,9 +4384,9 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/oauth2-google/issues",
-                "source": "https://github.com/thephpleague/oauth2-google/tree/4.0.1"
+                "source": "https://github.com/thephpleague/oauth2-google/tree/4.1.0"
             },
-            "time": "2023-03-17T15:20:52+00:00"
+            "time": "2025-12-15T12:24:14+00:00"
         },
         {
             "name": "maennchen/zipstream-php",
@@ -5384,16 +5384,16 @@
         },
         {
             "name": "pear/pear-core-minimal",
-            "version": "v1.10.16",
+            "version": "v1.10.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/pear-core-minimal.git",
-                "reference": "c0f51b45f50683bf5bbf558036854ebc9b54d033"
+                "reference": "c7b55789d01de0ce090d289b73f1bbd6a2f113b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/pear-core-minimal/zipball/c0f51b45f50683bf5bbf558036854ebc9b54d033",
-                "reference": "c0f51b45f50683bf5bbf558036854ebc9b54d033",
+                "url": "https://api.github.com/repos/pear/pear-core-minimal/zipball/c7b55789d01de0ce090d289b73f1bbd6a2f113b1",
+                "reference": "c7b55789d01de0ce090d289b73f1bbd6a2f113b1",
                 "shasum": ""
             },
             "require": {
@@ -5429,7 +5429,7 @@
                 "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=PEAR",
                 "source": "https://github.com/pear/pear-core-minimal"
             },
-            "time": "2024-11-24T22:27:58+00:00"
+            "time": "2025-12-14T20:37:07+00:00"
         },
         {
             "name": "pear/pear_exception",
@@ -5961,16 +5961,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.49",
+            "version": "2.0.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "4de468f48f0ab9709fc875aca0762abdc81cfa9b"
+                "reference": "1815ddd00195487cc922577751c175f339f4e20f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/4de468f48f0ab9709fc875aca0762abdc81cfa9b",
-                "reference": "4de468f48f0ab9709fc875aca0762abdc81cfa9b",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/1815ddd00195487cc922577751c175f339f4e20f",
+                "reference": "1815ddd00195487cc922577751c175f339f4e20f",
                 "shasum": ""
             },
             "require": {
@@ -6051,7 +6051,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/2.0.49"
+                "source": "https://github.com/phpseclib/phpseclib/tree/2.0.50"
             },
             "funding": [
                 {
@@ -6067,7 +6067,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-10-06T01:05:33+00:00"
+            "time": "2025-12-15T11:48:50+00:00"
         },
         {
             "name": "phrity/net-stream",
