@@ -1,7 +1,7 @@
-FROM almalinux:8
+FROM almalinux:9
 LABEL MAINTAINER="OSU Open Source Lab <dockerhub@osuosl.org>"
 
-RUN dnf install -y https://rpms.remirepo.net/enterprise/remi-release-8.rpm
+RUN dnf install -y https://rpms.remirepo.net/enterprise/remi-release-9.rpm
 RUN dnf module reset -y php
 RUN dnf module install -y php:remi-8.1
 RUN dnf install -y php-cli php-gd php-intl php-json php-mbstring php-mysqlnd \
