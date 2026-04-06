@@ -348,16 +348,16 @@
         },
         {
             "name": "civicrm/civicrm-asset-plugin",
-            "version": "v1.2.0",
+            "version": "v1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-asset-plugin.git",
-                "reference": "a24237e4886a55cd6be6d5c2a9e5fb932f83a109"
+                "reference": "496b3e27a50dcc20666b005f5c01439151b7efc9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-asset-plugin/zipball/a24237e4886a55cd6be6d5c2a9e5fb932f83a109",
-                "reference": "a24237e4886a55cd6be6d5c2a9e5fb932f83a109",
+                "url": "https://api.github.com/repos/civicrm/civicrm-asset-plugin/zipball/496b3e27a50dcc20666b005f5c01439151b7efc9",
+                "reference": "496b3e27a50dcc20666b005f5c01439151b7efc9",
                 "shasum": ""
             },
             "require": {
@@ -382,9 +382,9 @@
             ],
             "description": "Publish assets from private CiviCRM folders to a public folder",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-asset-plugin/tree/v1.2.0"
+                "source": "https://github.com/civicrm/civicrm-asset-plugin/tree/v1.2.1"
             },
-            "time": "2025-11-01T16:17:37+00:00"
+            "time": "2026-04-03T19:26:47+00:00"
         },
         {
             "name": "civicrm/civicrm-core",
