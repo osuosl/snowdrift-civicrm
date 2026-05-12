@@ -907,16 +907,16 @@
         },
         {
             "name": "civicrm/civicrm-drupal-8",
-            "version": "6.13.3",
+            "version": "6.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-drupal-8.git",
-                "reference": "8ca88b6915524cbdc0a8658a76b846e34e6eb731"
+                "reference": "ff2a6ca1cc3bf33189c4730c845eacc4064dac36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-drupal-8/zipball/8ca88b6915524cbdc0a8658a76b846e34e6eb731",
-                "reference": "8ca88b6915524cbdc0a8658a76b846e34e6eb731",
+                "url": "https://api.github.com/repos/civicrm/civicrm-drupal-8/zipball/ff2a6ca1cc3bf33189c4730c845eacc4064dac36",
+                "reference": "ff2a6ca1cc3bf33189c4730c845eacc4064dac36",
                 "shasum": ""
             },
             "require": {
@@ -956,7 +956,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/6.13.3"
+                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/6.14.0"
             },
             "funding": [
                 {
@@ -964,7 +964,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2026-01-30T01:27:02+00:00"
+            "time": "2026-04-04T14:19:04+00:00"
         },
         {
             "name": "civicrm/civicrm-packages",
@@ -7474,16 +7474,16 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v6.4.37",
+            "version": "v6.4.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "4f66d607578c9d0546b1750262a6140e552e346d"
+                "reference": "f0990df92ee67721886a2a8b6e19a1bafbf3d7a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/4f66d607578c9d0546b1750262a6140e552e346d",
-                "reference": "4f66d607578c9d0546b1750262a6140e552e346d",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/f0990df92ee67721886a2a8b6e19a1bafbf3d7a4",
+                "reference": "f0990df92ee67721886a2a8b6e19a1bafbf3d7a4",
                 "shasum": ""
             },
             "require": {
@@ -7535,7 +7535,7 @@
             "description": "Allows you to standardize and centralize the way objects are constructed in your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/dependency-injection/tree/v6.4.37"
+                "source": "https://github.com/symfony/dependency-injection/tree/v6.4.38"
             },
             "funding": [
                 {
@@ -7555,7 +7555,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-04-30T17:50:20+00:00"
+            "time": "2026-05-04T13:00:01+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
