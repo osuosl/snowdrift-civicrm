@@ -9,7 +9,7 @@ jobs:
   install:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
       - name: Build container
         run: |
           docker build -t snowdrift-civicrm .
