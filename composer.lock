@@ -388,16 +388,16 @@
         },
         {
             "name": "civicrm/civicrm-core",
-            "version": "6.16.2",
+            "version": "6.16.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-core.git",
-                "reference": "a3525ee591d377fdec944216f190a0fe6ef1b7bb"
+                "reference": "001aa785e7b6b9b4252a33cc6726e1ea2657487b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/a3525ee591d377fdec944216f190a0fe6ef1b7bb",
-                "reference": "a3525ee591d377fdec944216f190a0fe6ef1b7bb",
+                "url": "https://api.github.com/repos/civicrm/civicrm-core/zipball/001aa785e7b6b9b4252a33cc6726e1ea2657487b",
+                "reference": "001aa785e7b6b9b4252a33cc6726e1ea2657487b",
                 "shasum": ""
             },
             "require": {
@@ -900,7 +900,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-core/tree/6.16.2"
+                "source": "https://github.com/civicrm/civicrm-core/tree/6.16.3"
             },
             "funding": [
                 {
@@ -908,11 +908,11 @@
                     "type": "custom"
                 }
             ],
-            "time": "2026-07-28T02:04:21+00:00"
+            "time": "2026-08-03T22:42:20+00:00"
         },
         {
             "name": "civicrm/civicrm-drupal-8",
-            "version": "6.16.2",
+            "version": "6.16.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-drupal-8.git",
@@ -961,7 +961,7 @@
             ],
             "description": "Open source constituent relationship management for non-profits, NGOs and advocacy organizations.",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/6.16.2"
+                "source": "https://github.com/civicrm/civicrm-drupal-8/tree/6.16.3"
             },
             "funding": [
                 {
@@ -973,7 +973,7 @@
         },
         {
             "name": "civicrm/civicrm-packages",
-            "version": "6.16.2",
+            "version": "6.16.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/civicrm/civicrm-packages.git",
@@ -989,7 +989,7 @@
             "notification-url": "https://packagist.org/downloads/",
             "description": "Legacy third party dependencies for CiviCRM",
             "support": {
-                "source": "https://github.com/civicrm/civicrm-packages/tree/6.16.2"
+                "source": "https://github.com/civicrm/civicrm-packages/tree/6.16.3"
             },
             "time": "2026-05-26T20:50:41+00:00"
         },
@@ -6070,16 +6070,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "3.0.55",
+            "version": "3.0.56",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "db9744e6d47e742b1f974e965ad49bdd041105af"
+                "reference": "7adbbe38cde25e2df2116dbf2673c407e24fa305"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/db9744e6d47e742b1f974e965ad49bdd041105af",
-                "reference": "db9744e6d47e742b1f974e965ad49bdd041105af",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/7adbbe38cde25e2df2116dbf2673c407e24fa305",
+                "reference": "7adbbe38cde25e2df2116dbf2673c407e24fa305",
                 "shasum": ""
             },
             "require": {
@@ -6160,7 +6160,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.55"
+                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.56"
             },
             "funding": [
                 {
@@ -6176,7 +6176,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-06-14T23:24:10+00:00"
+            "time": "2026-08-03T04:36:50+00:00"
         },
         {
             "name": "phpseclib/phpseclib2_compat",
