@@ -3,7 +3,7 @@ LABEL MAINTAINER="OSU Open Source Lab <dockerhub@osuosl.org>"
 
 RUN dnf install -y https://rpms.remirepo.net/enterprise/remi-release-9.rpm
 RUN dnf module reset -y php
-RUN dnf module install -y php:remi-8.1
+RUN dnf module install -y php:remi-8.4
 RUN dnf install -y php-cli php-gd php-intl php-json php-mbstring php-mysqlnd \
     php-opcache php-pdo php-pecl-apcu php-pecl-memcached php-pecl-zip \
     php-devel php-bcmath wget unzip git patch composer
